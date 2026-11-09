@@ -4,121 +4,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Abid Mohammed & Ayshath Mishfa | Wedding Invitation</title>
-    
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Great+Vibes&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Amiri:ital,wght@0,400;0,700;1,400&family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Plus+Jakarta+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+    
     <script>
         tailwind.config = {
             theme: {
                 extend: {
                     colors: {
-                        emerald: {
-                            950: '#04130E',
-                            900: '#072219',
-                            800: '#0C3427',
-                            700: '#134937'
-                        },
+                        champagne: '#F7E3CE',
                         rosegold: {
-                            light: '#F7E3CE',
+                            light: '#F5D6BA',
                             DEFAULT: '#E2B897',
-                            medium: '#CFA07A',
-                            dark: '#AD7B56',
-                            deep: '#875A39'
+                            dark: '#B8865B'
                         },
-                        champagne: '#F9F3EB',
-                        pearl: '#D8E2DC'
+                        emerald: {
+                            velvet: '#06221C',
+                            royal: '#0A2E26',
+                            deep: '#03130F'
+                        }
                     },
                     fontFamily: {
-                        serif: ['"Cormorant Garamond"', 'serif'],
                         cinzel: ['"Cinzel"', 'serif'],
-                        script: ['"Great Vibes"', 'cursive'],
-                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
-                        arabic: ['"Amiri"', 'serif']
+                        serif: ['"Cormorant Garamond"', 'serif'],
+                        script: ['"Alex Brush"', 'cursive'],
+                        arabic: ['"Amiri"', 'serif'],
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif']
                     }
                 }
             }
-        }
+        };
     </script>
 
     <style>
-        /* Royal Emerald Night & Celestial Rose Gold Theme */
+        /* =========================================================
+           ROYAL EMERALD NIGHT & CELESTIAL ROSE GOLD LUXURY THEME
+        ========================================================== */
         body {
-            background-color: #030D0A;
-            color: #F9F3EB;
+            background-color: #020C09;
+            color: #F7E3CE;
             font-family: 'Plus Jakarta Sans', sans-serif;
             overflow-x: hidden;
+            margin: 0;
+            padding: 0;
         }
 
-        /* Moroccan Geometric Lattice & Velvet Gradient Background */
-        .emerald-velvet {
-            background-color: #051811;
+        /* Deep Royal Emerald Velvet & Moroccan Lattice Canvas */
+        .emerald-palace-canvas {
+            background-color: #051C16;
             background-image: 
-                radial-gradient(circle at 50% 12%, rgba(226, 184, 151, 0.14) 0%, transparent 55%),
-                radial-gradient(circle at 15% 80%, rgba(19, 73, 55, 0.45) 0%, transparent 50%),
-                url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23E2B897' stroke-width='0.6' stroke-opacity='0.09'%3E%3Cpath d='M30 0L45 15L30 30L15 15Z'/%3E%3Cpath d='M0 30L15 45L0 60L-15 45Z'/%3E%3Cpath d='M60 30L75 45L60 60L45 45Z'/%3E%3Cpath d='M30 30L45 45L30 60L15 45Z'/%3E%3Ccircle cx='30' cy='30' r='6'/%3E%3C/g%3E%3C/svg%3E");
+                radial-gradient(circle at 50% 6%, rgba(226, 184, 151, 0.22) 0%, transparent 52%),
+                radial-gradient(circle at 88% 40%, rgba(16, 85, 67, 0.35) 0%, transparent 48%),
+                radial-gradient(circle at 12% 78%, rgba(212, 163, 115, 0.14) 0%, transparent 50%),
+                url("data:image/svg+xml,%3Csvg width='72' height='72' viewBox='0 0 72 72' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' stroke='%23E2B897' stroke-width='0.55' stroke-opacity='0.12'%3E%3Cpath d='M36 0L54 18L36 36L18 18Z'/%3E%3Cpath d='M36 36L54 54L36 72L18 54Z'/%3E%3Ccircle cx='36' cy='36' r='10'/%3E%3C/g%3E%3C/svg%3E");
         }
 
-        /* Frosted Emerald Glass Card */
-        .emerald-card {
-            background: linear-gradient(145deg, rgba(12, 52, 39, 0.72) 0%, rgba(5, 24, 17, 0.88) 100%);
+        /* Frosted Emerald Glass & Rose-Gold Card */
+        .emerald-glass-card {
+            background: linear-gradient(160deg, rgba(11, 46, 38, 0.88) 0%, rgba(5, 25, 20, 0.94) 100%);
             backdrop-filter: blur(16px);
             -webkit-backdrop-filter: blur(16px);
             border: 1px solid rgba(226, 184, 151, 0.35);
-            box-shadow: 0 20px 45px -15px rgba(0, 0, 0, 0.7), inset 0 1px 1px rgba(247, 227, 206, 0.15);
+            box-shadow: 0 22px 50px -15px rgba(0, 0, 0, 0.7), inset 0 0 0 1px rgba(247, 227, 206, 0.08);
         }
 
-        /* Celestial Rose Gold Shimmer Text */
+        /* Luminous Celestial Rose-Gold Shimmer Text */
         .rosegold-shimmer {
             background: linear-gradient(
                 110deg,
-                #CFA07A 0%,
-                #F7E3CE 25%,
-                #E2B897 50%,
-                #FFF5EB 75%,
-                #CFA07A 100%
+                #E2B897 0%,
+                #FFF3E6 28%,
+                #D49B6A 50%,
+                #FFF3E6 72%,
+                #E2B897 100%
             );
             background-size: 200% auto;
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            animation: shine 5s linear infinite;
+            animation: shine 6s linear infinite;
         }
 
-        /* Rose Gold Luxury Button */
+        /* Rose-Gold Foil CTA Button */
         .rosegold-btn {
-            background: linear-gradient(135deg, #B88661 0%, #E2B897 50%, #9E6B47 100%);
+            background: linear-gradient(135deg, #E2B897 0%, #C99366 50%, #F3D1B8 100%);
             background-size: 200% auto;
-            color: #04130E;
+            color: #041712;
+            border: 1px solid rgba(255, 244, 232, 0.65);
             transition: all 0.4s cubic-bezier(0.22, 1, 0.36, 1);
         }
         .rosegold-btn:hover {
             background-position: right center;
             transform: translateY(-2px);
-            box-shadow: 0 10px 28px -5px rgba(226, 184, 151, 0.45);
+            box-shadow: 0 12px 28px -6px rgba(226, 184, 151, 0.45);
         }
         .rosegold-btn:active {
             transform: translateY(0px) scale(0.98);
         }
 
         @keyframes shine {
-            to {
-                background-position: 200% center;
-            }
+            to { background-position: 200% center; }
         }
 
-        /* Twinkling Celestial Stars */
-        @keyframes twinkle {
-            0%, 100% { opacity: 0.2; transform: scale(0.8); }
-            50% { opacity: 0.9; transform: scale(1.2); }
+        @keyframes floatLantern {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-7px); }
         }
-        .star-twinkle {
-            animation: twinkle 4s ease-in-out infinite;
+        .lantern-sway {
+            animation: floatLantern 4.2s ease-in-out infinite;
         }
+
+        @keyframes starTwinkle {
+            0%, 100% { opacity: 0.25; transform: scale(0.9); }
+            50% { opacity: 0.9; transform: scale(1.15); }
+        }
+        .twinkle-star {
+            animation: starTwinkle 3.5s ease-in-out infinite;
+        }
+
+        /* Courting Swans, Water Shimmer & Floating Butterflies for Archway Landing */
+        @keyframes swanGlideLeft {
+            0%, 100% { transform: translateX(0px) translateY(0px); }
+            50% { transform: translateX(4px) translateY(-2px); }
+        }
+        @keyframes swanGlideRight {
+            0%, 100% { transform: translateX(0px) translateY(0px); }
+            50% { transform: translateX(-4px) translateY(-2px); }
+        }
+        @keyframes butterflyFloat {
+            0%, 100% { transform: translate(0, 0) rotate(-6deg) scale(0.95); }
+            50% { transform: translate(7px, -9px) rotate(8deg) scale(1.06); }
+        }
+        @keyframes scrollBounce {
+            0%, 100% { transform: translateY(0); opacity: 0.7; }
+            50% { transform: translateY(6px); opacity: 1; }
+        }
+        .swan-left { animation: swanGlideLeft 4.8s ease-in-out infinite; }
+        .swan-right { animation: swanGlideRight 4.8s ease-in-out infinite; }
+        .butterfly-anim { animation: butterflyFloat 5.2s ease-in-out infinite; }
+        .scroll-cue { animation: scrollBounce 2.2s ease-in-out infinite; }
 
         /* Equalizer Bar Animations for Music Toggle */
         @keyframes eqBar1 {
@@ -143,315 +170,701 @@
             height: 4px !important;
         }
 
-        /* Gatefold Transition */
+        /* ==============================================================
+           SLOWER, MULTI-STAGE 4-FLAP ENVELOPE & GOLDEN SUNBURST INTRO
+        =============================================================== */
         #gatefold-overlay {
-            transition: opacity 0.9s cubic-bezier(0.4, 0, 0.2, 1), transform 1.1s cubic-bezier(0.4, 0, 0.2, 1);
+            perspective: 1600px;
+            transition: opacity 1.3s cubic-bezier(0.22, 1, 0.36, 1), visibility 1.3s;
         }
-        .gatefold-open {
+        #gatefold-overlay.envelope-done {
             opacity: 0 !important;
-            transform: scale(1.08) !important;
+            visibility: hidden !important;
             pointer-events: none !important;
+        }
+
+        .envelope-stage {
+            position: relative;
+            width: 100%;
+            max-width: 480px;
+            height: 100vh;
+            max-height: 920px;
+            overflow: hidden;
+            background: radial-gradient(circle at 50% 50%, #FFFDF7 0%, #FFE39F 28%, #C88232 58%, #041712 100%);
+            box-shadow: 0 0 110px rgba(0, 0, 0, 0.98);
+            cursor: pointer;
+        }
+
+        /* Stage 1 & 2: Radiant Golden Core + Rotating God-Rays behind flaps */
+        .envelope-light-core {
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at 50% 50%, #FFFFFF 0%, #FFF2C2 20%, rgba(255, 196, 82, 0.85) 45%, rgba(214, 122, 29, 0.35) 68%, transparent 82%);
+            opacity: 0;
+            transform: scale(0.25);
+            transition: opacity 1.8s cubic-bezier(0.16, 1, 0.3, 1), transform 2.6s cubic-bezier(0.16, 1, 0.3, 1);
+            z-index: 5;
+            pointer-events: none;
+        }
+        .envelope-glow .envelope-light-core {
+            opacity: 0.65;
+            transform: scale(0.95);
+        }
+        .envelope-rays .envelope-light-core {
+            opacity: 0.95;
+            transform: scale(1.45);
+        }
+        .envelope-opening .envelope-light-core {
+            opacity: 1;
+            transform: scale(2.9);
+        }
+
+        /* Rotating Volumetric Golden Sunbeams inside the Envelope */
+        @keyframes spinRays {
+            from { transform: translate(-50%, -50%) rotate(0deg) scale(0.6); }
+            to { transform: translate(-50%, -50%) rotate(45deg) scale(1.85); }
+        }
+        .envelope-god-rays {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 680px;
+            height: 680px;
+            transform: translate(-50%, -50%) scale(0.5);
+            background: repeating-conic-gradient(
+                from 0deg,
+                rgba(255, 238, 175, 0.42) 0deg 7deg,
+                transparent 7deg 18deg
+            );
+            border-radius: 50%;
+            filter: blur(6px);
+            opacity: 0;
+            z-index: 19;
+            pointer-events: none;
+            transition: opacity 1.5s ease, transform 2.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+        .envelope-rays .envelope-god-rays {
+            opacity: 0.85;
+            animation: spinRays 3.6s ease-out forwards;
+        }
+        .envelope-opening .envelope-god-rays {
+            opacity: 0.35;
+        }
+
+        /* Individual Triangular Envelope Flaps */
+        .env-flap {
+            position: absolute;
+            inset: 0;
+            transition: transform 2.5s cubic-bezier(0.55, 0.05, 0.18, 1), opacity 2s ease, filter 1.5s ease;
+            will-change: transform;
+        }
+
+        /* Deep Royal Emerald Velvet Texture on Flaps */
+        .flap-surface {
+            position: absolute;
+            inset: 0;
+            background-color: #051F19;
+            background-image: 
+                radial-gradient(circle at 50% 50%, rgba(15, 74, 59, 0.62) 0%, rgba(2, 12, 9, 0.98) 100%);
+        }
+
+        .flap-left {
+            clip-path: polygon(0 0, 50% 50%, 0 100%);
+            z-index: 12;
+            transform-origin: left center;
+        }
+        .flap-right {
+            clip-path: polygon(100% 0, 50% 50%, 100% 100%);
+            z-index: 12;
+            transform-origin: right center;
+        }
+        .flap-bottom {
+            clip-path: polygon(0 100%, 50% 50%, 100% 100%);
+            z-index: 14;
+            transform-origin: bottom center;
+        }
+        .flap-top {
+            clip-path: polygon(0 0, 100% 0, 50% 50%);
+            z-index: 16;
+            transform-origin: top center;
+        }
+
+        /* Embossed Floral & Arabesque SVG Pattern */
+        .emboss-pattern {
+            opacity: 0.25;
+            stroke: #020D0A;
+            fill: #031410;
+            filter: drop-shadow(1px 1px 0px rgba(226, 184, 151, 0.16));
+            transition: all 1.4s cubic-bezier(0.22, 1, 0.36, 1);
+        }
+        .envelope-glow .emboss-pattern,
+        .envelope-rays .emboss-pattern,
+        .envelope-opening .emboss-pattern {
+            opacity: 0.96;
+            stroke: #FFE099;
+            fill: rgba(245, 188, 98, 0.32);
+            filter: drop-shadow(0 0 14px rgba(255, 200, 95, 0.95)) drop-shadow(0 0 28px rgba(255, 160, 40, 0.6));
+        }
+
+        /* Diagonal Gold Seam Lines */
+        .env-seam-lines {
+            position: absolute;
+            inset: 0;
+            z-index: 18;
+            pointer-events: none;
+            transition: opacity 1.2s ease;
+        }
+        .seam-path {
+            stroke: rgba(226, 184, 151, 0.42);
+            stroke-width: 1.4;
+            transition: all 1.3s ease;
+        }
+        .envelope-glow .seam-path,
+        .envelope-rays .seam-path {
+            stroke: #FFF0B8;
+            stroke-width: 2.8;
+            filter: drop-shadow(0 0 16px #FFC252) drop-shadow(0 0 32px #FF9900);
+        }
+        .envelope-opening .env-seam-lines {
+            opacity: 0;
+        }
+
+        /* Stage 2: Slight Pre-Unfold Seam Parting */
+        .envelope-rays .flap-top { transform: translateY(-2.5%) scale(0.99); }
+        .envelope-rays .flap-bottom { transform: translateY(2.5%) scale(0.99); }
+        .envelope-rays .flap-left { transform: translateX(-2.5%) scale(0.99); }
+        .envelope-rays .flap-right { transform: translateX(2.5%) scale(0.99); }
+
+        /* Stage 3: Majestic Slow 3D Unfolding of All 4 Flaps */
+        .envelope-opening .flap-top {
+            transform: translateY(-48%) rotateX(72deg) scale(0.9);
+            opacity: 0;
+        }
+        .envelope-opening .flap-bottom {
+            transform: translateY(92%) rotateX(-62deg);
+            opacity: 0.15;
+        }
+        .envelope-opening .flap-left {
+            transform: translateX(-95%) rotateY(-62deg);
+            opacity: 0.15;
+        }
+        .envelope-opening .flap-right {
+            transform: translateX(95%) rotateY(62deg);
+            opacity: 0.15;
+        }
+
+        /* 3D Blush / Rose-Gold Wax Seal Stamp */
+        .wax-seal-wrapper {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 25;
+            cursor: pointer;
+            transition: transform 2.5s cubic-bezier(0.55, 0.05, 0.18, 1), opacity 1.8s ease, filter 1.1s ease;
+        }
+        .wax-seal-wrapper:hover {
+            transform: translate(-50%, -50%) scale(1.05);
+        }
+        .envelope-glow .wax-seal-wrapper {
+            filter: drop-shadow(0 0 30px rgba(255, 220, 140, 0.95)) drop-shadow(0 0 65px rgba(255, 170, 55, 0.85));
+            transform: translate(-50%, -50%) scale(1.06);
+        }
+        .envelope-rays .wax-seal-wrapper {
+            filter: drop-shadow(0 0 48px rgba(255, 240, 185, 1)) drop-shadow(0 0 95px rgba(255, 180, 60, 1));
+            transform: translate(-50%, -56%) scale(1.1);
+        }
+        .envelope-opening .wax-seal-wrapper {
+            transform: translate(-50%, -290%) rotateX(35deg) scale(0.84);
+            opacity: 0;
+        }
+
+        @keyframes pulseTapHint {
+            0%, 100% { opacity: 0.65; transform: translate(-50%, 0) scale(0.98); }
+            50% { opacity: 1; transform: translate(-50%, -4px) scale(1.03); }
+        }
+        .tap-hint-badge {
+            animation: pulseTapHint 2.4s ease-in-out infinite;
         }
 
         /* Scroll Reveal Animation */
         .reveal {
             opacity: 0;
-            transform: translateY(26px);
+            transform: translateY(24px);
             transition: opacity 0.85s cubic-bezier(0.22, 1, 0.36, 1), transform 0.85s cubic-bezier(0.22, 1, 0.36, 1);
         }
         .reveal.active {
             opacity: 1;
             transform: translateY(0);
         }
-
-        /* Ornate Reception Frame */
-        .ornate-emerald-pill {
-            position: relative;
-            border: 1px solid #E2B897;
-            background: linear-gradient(90deg, rgba(4,19,14,0.85) 0%, rgba(19,73,55,0.85) 50%, rgba(4,19,14,0.85) 100%);
-        }
-        .ornate-emerald-pill::before,
-        .ornate-emerald-pill::after {
-            content: '✦';
-            position: absolute;
-            top: 50%;
-            transform: translateY(-50%);
-            color: #E2B897;
-            font-size: 11px;
-        }
-        .ornate-emerald-pill::before { left: 14px; }
-        .ornate-emerald-pill::after { right: 14px; }
-
-        /* Print Media Support for Keepsake Pass */
-        @media print {
-            #gatefold-overlay, #music-toggle-btn, nav, #petal-canvas {
-                display: none !important;
-            }
-            body {
-                background: #051811 !important;
-                color: #F9F3EB !important;
-            }
-        }
     </style>
 </head>
 <body class="min-h-screen flex justify-center items-start selection:bg-rosegold/30 selection:text-champagne">
 
     <!-- ==========================================
-         FULL-SCREEN ROSE PETAL SHOWER CANVAS
+         FULL-SCREEN ROSE PETAL & GOLDEN SPARKLE CANVAS
     =========================================== -->
     <canvas id="petal-canvas" class="fixed inset-0 pointer-events-none z-50"></canvas>
 
     <!-- ==========================================
-         1. ROYAL EMERALD GATEFOLD SPLASH SCREEN
+         1. 3D 4-FLAP EMBOSSED ENVELOPE & WAX SEAL INTRO
     =========================================== -->
-    <div id="gatefold-overlay" class="fixed inset-0 z-50 flex items-center justify-center bg-[#020A07] p-3 sm:p-6">
-        <div class="relative w-full max-w-[490px] h-[94vh] max-h-[830px] emerald-velvet rounded-3xl shadow-[0_0_70px_rgba(0,0,0,0.9)] border border-rosegold/40 overflow-hidden flex flex-col items-center justify-between p-6 sm:p-10 text-center">
+    <div id="gatefold-overlay" class="fixed inset-0 z-50 flex items-center justify-center bg-[#020A08]">
+        <div id="envelope-stage" class="envelope-stage" onclick="openInvitation()">
             
-            <!-- Double Rose-Gold Geometric Frame -->
-            <div class="absolute inset-3.5 border border-rosegold/40 rounded-2xl pointer-events-none"></div>
-            <div class="absolute inset-5 border border-rosegold/15 rounded-xl pointer-events-none"></div>
+            <!-- Intense Golden Light Burst & Rotating God-Rays Behind Flaps -->
+            <div class="envelope-light-core"></div>
+            <div class="envelope-god-rays"></div>
 
-            <!-- Corner Celestial Filigree Ornaments -->
-            <svg class="absolute top-5 left-5 w-16 h-16 text-rosegold/50 pointer-events-none" viewBox="0 0 64 64" fill="none">
-                <path d="M2 2 H40 M2 2 V40 M2 2 L28 28" stroke="currentColor" stroke-width="1.2"/>
-                <circle cx="28" cy="28" r="2.5" fill="currentColor"/>
-                <circle cx="14" cy="2" r="1.5" fill="currentColor"/>
-                <circle cx="2" cy="14" r="1.5" fill="currentColor"/>
-            </svg>
-            <svg class="absolute top-5 right-5 w-16 h-16 text-rosegold/50 pointer-events-none transform scale-x-[-1]" viewBox="0 0 64 64" fill="none">
-                <path d="M2 2 H40 M2 2 V40 M2 2 L28 28" stroke="currentColor" stroke-width="1.2"/>
-                <circle cx="28" cy="28" r="2.5" fill="currentColor"/>
-                <circle cx="14" cy="2" r="1.5" fill="currentColor"/>
-                <circle cx="2" cy="14" r="1.5" fill="currentColor"/>
-            </svg>
-            <svg class="absolute bottom-5 left-5 w-16 h-16 text-rosegold/50 pointer-events-none transform scale-y-[-1]" viewBox="0 0 64 64" fill="none">
-                <path d="M2 2 H40 M2 2 V40 M2 2 L28 28" stroke="currentColor" stroke-width="1.2"/>
-                <circle cx="28" cy="28" r="2.5" fill="currentColor"/>
-            </svg>
-            <svg class="absolute bottom-5 right-5 w-16 h-16 text-rosegold/50 pointer-events-none transform scale-[-1]" viewBox="0 0 64 64" fill="none">
-                <path d="M2 2 H40 M2 2 V40 M2 2 L28 28" stroke="currentColor" stroke-width="1.2"/>
-                <circle cx="28" cy="28" r="2.5" fill="currentColor"/>
-            </svg>
-
-            <!-- Top Bismillah Header -->
-            <div class="z-10 pt-4">
-                <p class="font-arabic text-2xl sm:text-3xl text-rosegold-light tracking-wide mb-1">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
-                <p class="text-[10px] uppercase tracking-[0.25em] text-pearl/70">In the name of Allah, the Most Gracious, the Most Merciful</p>
+            <!-- TOP FLAP -->
+            <div class="env-flap flap-top">
+                <div class="flap-surface"></div>
+                <svg class="absolute inset-0 w-full h-full emboss-pattern" viewBox="0 0 400 700" preserveAspectRatio="xMidYMid slice">
+                    <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M200,85 C175,60 140,65 130,95 C120,125 160,155 200,155 C240,155 280,125 270,95 C260,65 225,60 200,85 Z"/>
+                        <circle cx="200" cy="112" r="18"/>
+                        <path d="M130,95 Q85,60 55,30 M105,72 L85,82 M108,55 L118,35"/>
+                        <path d="M270,95 Q315,60 345,30 M295,72 L315,82 M292,55 L282,35"/>
+                        <path d="M200,155 L200,235 M182,190 L200,208 L218,190"/>
+                    </g>
+                </svg>
             </div>
 
-            <!-- Center Moroccan Arch & Monogram Medallion -->
-            <div class="z-10 flex flex-col items-center my-auto py-3">
-                <div class="relative w-48 h-60 sm:w-52 sm:h-64 border border-rosegold/50 rounded-t-full bg-emerald-950/75 backdrop-blur-md shadow-2xl flex flex-col items-center justify-center p-6">
-                    <div class="absolute inset-1.5 border border-dashed border-rosegold/30 rounded-t-full pointer-events-none"></div>
-                    
-                    <!-- Hanging Lantern Icon -->
-                    <svg class="w-7 h-7 text-rosegold mb-1.5 star-twinkle" viewBox="0 0 24 24" fill="currentColor">
-                        <path d="M12 2L14.5 7H9.5L12 2ZM8 8H16L17.5 14L12 21L6.5 14L8 8ZM12 10.5C10.9 10.5 10 11.4 10 12.5C10 13.6 10.9 14.5 12 14.5C13.1 14.5 14 13.6 14 12.5C14 11.4 13.1 10.5 12 10.5Z"/>
-                    </svg>
-
-                    <span class="text-[9px] uppercase tracking-[0.32em] text-rosegold font-semibold mb-1.5">Royal Wedding Invitation</span>
-                    
-                    <!-- Rose Gold Medallion Monogram -->
-                    <div class="w-20 h-20 rounded-full bg-gradient-to-br from-[#F7E3CE] via-[#CFA07A] to-[#875A39] p-0.5 shadow-[0_0_25px_rgba(226,184,151,0.35)] flex items-center justify-center my-1.5">
-                        <div class="w-full h-full rounded-full bg-emerald-950 flex items-center justify-center border border-rosegold/50">
-                            <span class="font-cinzel text-2xl font-bold rosegold-shimmer tracking-wider">A<span class="text-sm font-normal mx-0.5">&amp;</span>A</span>
-                        </div>
-                    </div>
-
-                    <p class="font-cinzel text-sm sm:text-base font-semibold text-champagne tracking-widest mt-2">ABID MOHAMMED</p>
-                    <p class="font-script text-lg text-rosegold leading-none my-0.5">&amp;</p>
-                    <p class="font-cinzel text-sm sm:text-base font-semibold text-champagne tracking-widest">AYSHATH MISHFA</p>
-                </div>
-
-                <p class="font-serif italic text-base sm:text-lg text-pearl/90 mt-5">We cordially invite you &amp; your family</p>
-                <p class="text-xs tracking-[0.25em] uppercase text-rosegold font-medium mt-1">Saturday • 12 December 2026</p>
+            <!-- LEFT FLAP -->
+            <div class="env-flap flap-left">
+                <div class="flap-surface"></div>
+                <svg class="absolute inset-0 w-full h-full emboss-pattern" viewBox="0 0 400 700" preserveAspectRatio="xMidYMid slice">
+                    <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="68" cy="350" r="32"/>
+                        <circle cx="68" cy="350" r="16"/>
+                        <path d="M68,318 C40,265 45,205 95,165 M55,260 L32,245 M65,220 L88,205"/>
+                        <path d="M68,382 C40,435 45,495 95,535 M55,440 L32,455 M65,480 L88,495"/>
+                        <path d="M100,350 L145,350 M120,335 L138,350 L120,365"/>
+                    </g>
+                </svg>
             </div>
 
-            <!-- Open Invitation CTA Button -->
-            <div class="z-10 pb-3 w-full max-w-xs">
-                <button id="open-invite-btn" onclick="openInvitation()" class="w-full rosegold-btn font-cinzel tracking-[0.2em] uppercase text-xs sm:text-sm font-bold py-4 px-8 rounded-full shadow-xl flex items-center justify-center gap-3 cursor-pointer">
-                    <span>Unveil Invitation</span>
-                    <svg class="w-4 h-4 animate-bounce" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
-                    </svg>
-                </button>
-                <p class="text-[11px] text-pearl/60 mt-2.5 flex items-center justify-center gap-1.5">
-                    <span>♪ Opens with Romantic Wedding Instrumental</span>
+            <!-- RIGHT FLAP -->
+            <div class="env-flap flap-right">
+                <div class="flap-surface"></div>
+                <svg class="absolute inset-0 w-full h-full emboss-pattern" viewBox="0 0 400 700" preserveAspectRatio="xMidYMid slice">
+                    <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="332" cy="350" r="32"/>
+                        <circle cx="332" cy="350" r="16"/>
+                        <path d="M332,318 C360,265 355,205 305,165 M345,260 L368,245 M335,220 L312,205"/>
+                        <path d="M332,382 C360,435 355,495 305,535 M345,440 L368,455 M335,480 L312,495"/>
+                        <path d="M300,350 L255,350 M280,335 L262,350 L280,365"/>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- BOTTOM FLAP -->
+            <div class="env-flap flap-bottom">
+                <div class="flap-surface"></div>
+                <svg class="absolute inset-0 w-full h-full emboss-pattern" viewBox="0 0 400 700" preserveAspectRatio="xMidYMid slice">
+                    <g stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M200,615 C175,640 140,635 130,605 C120,575 160,545 200,545 C240,545 280,575 270,605 C260,635 225,640 200,615 Z"/>
+                        <circle cx="200" cy="588" r="18"/>
+                        <path d="M130,605 Q85,640 45,675 M105,628 L82,618 M95,650 L110,670"/>
+                        <path d="M270,605 Q315,640 355,675 M295,628 L318,618 M305,650 L290,670"/>
+                        <path d="M200,545 L200,465 M182,510 L200,492 L218,510"/>
+                    </g>
+                </svg>
+            </div>
+
+            <!-- DIAGONAL ENVELOPE SEAM LINES -->
+            <svg class="env-seam-lines w-full h-full" viewBox="0 0 100 100" preserveAspectRatio="none">
+                <line x1="0" y1="0" x2="50" y2="50" class="seam-path" />
+                <line x1="100" y1="0" x2="50" y2="50" class="seam-path" />
+                <line x1="0" y1="100" x2="50" y2="50" class="seam-path" />
+                <line x1="100" y1="100" x2="50" y2="50" class="seam-path" />
+            </svg>
+
+            <!-- CENTER 3D BLUSH ROSE-GOLD WAX SEAL STAMP -->
+            <div class="wax-seal-wrapper" role="button" tabindex="0" aria-label="Open Wedding Invitation">
+                <svg class="w-36 h-36 sm:w-40 sm:h-40 drop-shadow-[0_18px_28px_rgba(0,0,0,0.85)]" viewBox="0 0 200 200">
+                    <defs>
+                        <radialGradient id="waxOuterGrad" cx="35%" cy="30%" r="70%">
+                            <stop offset="0%" stop-color="#FCE3D2" />
+                            <stop offset="45%" stop-color="#E5B599" />
+                            <stop offset="80%" stop-color="#C48B6C" />
+                            <stop offset="100%" stop-color="#8A563C" />
+                        </radialGradient>
+                        <radialGradient id="waxInnerWell" cx="65%" cy="70%" r="65%">
+                            <stop offset="0%" stop-color="#F7D5BE" />
+                            <stop offset="55%" stop-color="#CFA082" />
+                            <stop offset="100%" stop-color="#9A684D" />
+                        </radialGradient>
+                    </defs>
+                    <path d="M100,12 C116,10 129,18 144,23 C159,28 174,36 181,51 C188,66 184,83 186,100 C188,117 190,135 181,149 C172,163 156,170 142,177 C128,184 115,191 100,190 C85,189 71,184 57,177 C43,170 26,164 19,149 C12,134 15,116 14,100 C13,84 11,66 19,51 C27,36 42,29 57,23 C72,17 84,14 100,12 Z" 
+                          fill="url(#waxOuterGrad)" stroke="#75462E" stroke-width="1.5" />
+                    <circle cx="100" cy="100" r="64" fill="url(#waxInnerWell)" stroke="#F9DFCD" stroke-width="2.5" />
+                    <circle cx="100" cy="100" r="58" fill="none" stroke="#8C583E" stroke-width="1" stroke-dasharray="3 2" opacity="0.65" />
+                    <text x="100" y="114" text-anchor="middle" font-family="'Alex Brush', cursive" font-size="48" fill="#6E3F28" opacity="0.55" transform="translate(1.5, 2)">
+                        A &amp; A
+                    </text>
+                    <text x="100" y="114" text-anchor="middle" font-family="'Alex Brush', cursive" font-size="48" fill="#FFF2E6">
+                        A &amp; A
+                    </text>
+                </svg>
+            </div>
+
+            <!-- Bottom Tap Instruction Pill -->
+            <div id="envelope-tap-hint" class="tap-hint-badge absolute bottom-10 left-1/2 z-30 text-center w-full max-w-xs px-4 pointer-events-none transition-opacity duration-700">
+                <p id="unveil-status-text" class="font-cinzel text-xs sm:text-sm tracking-[0.25em] uppercase text-rosegold-light font-semibold drop-shadow">
+                    Tap Seal to Slowly Unveil
+                </p>
+                <p class="font-serif italic text-xs text-champagne/75 mt-0.5">
+                    Abid Mohammed &amp; Ayshath Mishfa
                 </p>
             </div>
+
         </div>
     </div>
 
     <!-- ==========================================
          MAIN MOBILE-FIRST ARTBOARD CONTAINER
+         (ROYAL EMERALD NIGHT & CELESTIAL ROSE GOLD)
     =========================================== -->
-    <main class="relative w-full max-w-[520px] min-h-screen emerald-velvet shadow-[0_0_70px_rgba(0,0,0,0.85)] border-x border-rosegold/25 pb-28 overflow-hidden">
+    <main class="relative w-full max-w-[520px] min-h-screen emerald-palace-canvas shadow-[0_0_95px_rgba(0,0,0,0.95)] border-x border-rosegold/30 pb-28 overflow-hidden">
 
         <!-- ==========================================
-             FLOATING WEDDING SONG ON/OFF TOGGLE PILL
+             TOP-RIGHT WEDDING SONG ON/OFF PILL BUTTON
         =========================================== -->
-        <button id="music-toggle-btn" onclick="toggleWeddingSong()" aria-label="Toggle Wedding Song" class="fixed top-4 right-4 sm:right-[calc(50%-245px)] z-40 px-3.5 py-2 rounded-full bg-emerald-950/90 backdrop-blur-md border border-rosegold/60 shadow-[0_0_20px_rgba(226,184,151,0.25)] flex items-center gap-2.5 text-rosegold-light hover:border-rosegold transition cursor-pointer">
-            <!-- Animated Equalizer Bars -->
-            <div id="eq-bars" class="flex items-end gap-[2.5px] h-4 eq-paused">
-                <span class="w-[2.5px] bg-rosegold rounded-full eq-bar-1"></span>
-                <span class="w-[2.5px] bg-rosegold-light rounded-full eq-bar-2"></span>
-                <span class="w-[2.5px] bg-rosegold rounded-full eq-bar-3"></span>
+        <button id="music-toggle-btn" onclick="toggleWeddingSong()" aria-label="Toggle Wedding Song" class="fixed top-4 right-4 sm:right-[calc(50%-244px)] z-40 px-3.5 py-2 rounded-full bg-emerald-velvet/95 backdrop-blur-md border border-rosegold/60 shadow-[0_8px_25px_rgba(0,0,0,0.65)] flex items-center gap-2 text-champagne hover:scale-105 transition cursor-pointer">
+            <div id="eq-bars" class="flex items-end gap-[2.5px] h-3.5 eq-paused">
+                <span class="w-[2.5px] bg-rosegold-light rounded-full eq-bar-1"></span>
+                <span class="w-[2.5px] bg-rosegold rounded-full eq-bar-2"></span>
+                <span class="w-[2.5px] bg-rosegold-light rounded-full eq-bar-3"></span>
             </div>
-            <span id="music-label" class="text-[11px] font-cinzel uppercase tracking-wider font-semibold">♪ Song: OFF</span>
+            <span id="music-label" class="font-cinzel text-[10px] tracking-[0.18em] uppercase font-semibold">♪ Song: OFF</span>
         </button>
 
-        <!-- ==========================================
-             2. HERO INVITATION ARCH CARD SECTION
-        =========================================== -->
-        <section id="section-invite" class="relative m-3 sm:m-5 mt-16 sm:mt-16 p-6 sm:p-9 emerald-card rounded-3xl overflow-hidden text-center">
+        <!-- ==============================================================
+             1.5. VIDEO-INSPIRED CLASSICAL ARCHWAY, COURTING SWANS & ROSES
+                  LANDING PAGE (STYLED IN ROYAL EMERALD & CELESTIAL ROSE GOLD)
+        =============================================================== -->
+        <section id="section-landing" class="relative m-3 sm:m-5 pt-7 pb-0 px-4 sm:px-6 emerald-glass-card rounded-3xl text-center overflow-hidden border border-rosegold/45 shadow-[0_25px_65px_rgba(0,0,0,0.85)]">
             
-            <!-- Inner Decorative Arch Border -->
-            <div class="absolute inset-2.5 border border-rosegold/25 rounded-2xl pointer-events-none"></div>
+            <!-- Soft Ambient Golden Palace Glow Behind the Arch -->
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_38%,rgba(245,214,186,0.16)_0%,rgba(6,34,28,0.4)_58%,transparent_85%)] pointer-events-none"></div>
 
-            <!-- Decorative Twinkling Stars -->
-            <span class="absolute top-6 left-7 text-rosegold/60 text-xs star-twinkle">✦</span>
-            <span class="absolute top-12 right-8 text-rosegold/50 text-sm star-twinkle" style="animation-delay: 1.5s">✦</span>
+            <!-- Classical Architectural Double Palace Archway SVG Frame -->
+            <div class="relative z-10 mx-auto max-w-[420px] pt-6 pb-4 px-3 sm:px-5 rounded-t-[210px] border-t-2 border-x-2 border-rosegold/60 bg-gradient-to-b from-emerald-velvet/80 via-emerald-royal/55 to-emerald-deep/90 shadow-[inset_0_12px_35px_rgba(226,184,151,0.15)]">
+                
+                <!-- Inner Filigree Arch Line -->
+                <div class="absolute inset-2.5 rounded-t-[200px] border-t border-x border-rosegold/30 pointer-events-none"></div>
 
-            <!-- Arabic Bismillah -->
-            <div class="reveal active pt-2 mb-5">
-                <p class="font-arabic text-2xl sm:text-3xl text-rosegold-light tracking-wider mb-1">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</p>
-                <div class="flex items-center justify-center gap-3 mt-2">
+                <!-- Archway Keystone Ornament -->
+                <div class="flex justify-center -mt-3 mb-3">
+                    <span class="px-3 py-0.5 rounded-full bg-emerald-deep border border-rosegold/50 text-rosegold-light text-[10px] font-cinzel tracking-[0.28em] uppercase">
+                        ✦ Nikah Mubarak ✦
+                    </span>
+                </div>
+
+                <!-- Floating Golden Butterflies inside the Archway -->
+                <svg class="butterfly-anim absolute top-14 left-6 w-6 h-6 text-rosegold-light/80 pointer-events-none" viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M15 16 C9 6, 2 8, 5 16 C2 21, 9 24, 15 18 Z M17 16 C23 6, 30 8, 27 16 C30 21, 23 24, 17 18 Z"/>
+                </svg>
+                <svg class="butterfly-anim absolute top-24 right-6 w-5 h-5 text-rosegold/80 pointer-events-none" style="animation-delay: 1.8s;" viewBox="0 0 32 32" fill="currentColor">
+                    <path d="M15 16 C9 6, 2 8, 5 16 C2 21, 9 24, 15 18 Z M17 16 C23 6, 30 8, 27 16 C30 21, 23 24, 17 18 Z"/>
+                </svg>
+
+                <!-- Wedding Day & Date Header (Like Video Reference) -->
+                <p class="font-script text-3xl sm:text-4xl text-rosegold-light tracking-wide mb-0.5">
+                    Wedding Day
+                </p>
+                <p class="font-cinzel text-xs sm:text-sm tracking-[0.35em] text-champagne/90 font-semibold mb-5">
+                    12 . 12 . 2026
+                </p>
+
+                <!-- Couple Names in Grand Editorial Calligraphy (Groom First, Bride Second) -->
+                <div class="my-2">
+                    <h1 class="font-script text-5xl sm:text-6xl rosegold-shimmer leading-none py-1 drop-shadow-[0_4px_15px_rgba(226,184,151,0.28)]">
+                        Abid Mohammed
+                    </h1>
+                    <p class="font-script text-3xl sm:text-4xl text-rosegold my-0.5">&amp;</p>
+                    <h1 class="font-script text-5xl sm:text-6xl rosegold-shimmer leading-none py-1 drop-shadow-[0_4px_15px_rgba(226,184,151,0.28)]">
+                        Ayshath Mishfa
+                    </h1>
+                </div>
+
+                <!-- Scroll Down Cue -->
+                <a href="#section-invite" class="inline-flex flex-col items-center mt-4 mb-2 group cursor-pointer">
+                    <span class="font-script text-2xl text-champagne/85 group-hover:text-rosegold-light transition">
+                        Scroll down
+                    </span>
+                    <svg class="w-4 h-4 text-rosegold scroll-cue -mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                    </svg>
+                </a>
+
+                <!-- Courting Swans on a Shimmering Golden Palace Pond & Corner Rose Bouquets -->
+                <div class="relative w-full h-44 sm:h-48 mt-1 overflow-hidden rounded-b-2xl">
+                    <svg class="w-full h-full" viewBox="0 0 400 190" preserveAspectRatio="xMidYMax slice">
+                        <defs>
+                            <radialGradient id="pondGlow" cx="50%" cy="35%" r="65%">
+                                <stop offset="0%" stop-color="#F5D6BA" stop-opacity="0.38"/>
+                                <stop offset="45%" stop-color="#C99366" stop-opacity="0.18"/>
+                                <stop offset="100%" stop-color="#03130F" stop-opacity="0.95"/>
+                            </radialGradient>
+                            <linearGradient id="swanBody" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="#FFFDF9"/>
+                                <stop offset="70%" stop-color="#F7E3CE"/>
+                                <stop offset="100%" stop-color="#D9B28C"/>
+                            </linearGradient>
+                        </defs>
+
+                        <!-- Distant Misty Palace Arches & Cypress Trees Silhouette -->
+                        <path d="M0,105 Q60,82 130,102 T270,100 T400,105 L400,190 L0,190 Z" fill="#06231C" opacity="0.75"/>
+                        
+                        <!-- Shimmering Emerald & Rose-Gold Pond Water -->
+                        <rect x="0" y="102" width="400" height="88" fill="url(#pondGlow)"/>
+
+                        <!-- Golden Water Ripples -->
+                        <g stroke="#F5D6BA" stroke-width="0.9" opacity="0.45" fill="none">
+                            <ellipse cx="200" cy="142" rx="76" ry="7"/>
+                            <ellipse cx="200" cy="154" rx="95" ry="9" opacity="0.3"/>
+                            <ellipse cx="200" cy="168" rx="55" ry="5" opacity="0.35"/>
+                            <line x1="145" y1="122" x2="255" y2="122" stroke-dasharray="6 8"/>
+                        </g>
+
+                        <!-- LEFT COURTING SWAN -->
+                        <g class="swan-left">
+                            <!-- Swan Reflection -->
+                            <path d="M132,138 Q155,152 184,138 Q162,145 132,138 Z" fill="#F5D6BA" opacity="0.18"/>
+                            <!-- Wing & Body -->
+                            <path d="M122,124 C118,106 135,96 160,104 C172,108 180,118 184,128 C162,133 134,132 122,124 Z" fill="url(#swanBody)" stroke="#E2B897" stroke-width="1"/>
+                            <path d="M132,116 C144,106 162,108 173,120" fill="none" stroke="#C99366" stroke-width="1" opacity="0.7"/>
+                            <!-- Graceful S-Curve Neck forming left half of heart -->
+                            <path d="M180,124 C174,102 168,74 182,62 C191,55 198,64 197,74" fill="none" stroke="url(#swanBody)" stroke-width="5.5" stroke-linecap="round"/>
+                            <!-- Beak touching center -->
+                            <polygon points="196,72 200,76 194,77" fill="#D48B54"/>
+                        </g>
+
+                        <!-- RIGHT COURTING SWAN -->
+                        <g class="swan-right">
+                            <!-- Swan Reflection -->
+                            <path d="M268,138 Q245,152 216,138 Q238,145 268,138 Z" fill="#F5D6BA" opacity="0.18"/>
+                            <!-- Wing & Body -->
+                            <path d="M278,124 C282,106 265,96 240,104 C228,108 220,118 216,128 C238,133 266,132 278,124 Z" fill="url(#swanBody)" stroke="#E2B897" stroke-width="1"/>
+                            <path d="M268,116 C256,106 238,108 227,120" fill="none" stroke="#C99366" stroke-width="1" opacity="0.7"/>
+                            <!-- Graceful S-Curve Neck forming right half of heart -->
+                            <path d="M220,124 C226,102 232,74 218,62 C209,55 202,64 203,74" fill="none" stroke="url(#swanBody)" stroke-width="5.5" stroke-linecap="round"/>
+                            <!-- Beak touching center -->
+                            <polygon points="204,72 200,76 206,77" fill="#D48B54"/>
+                        </g>
+
+                        <!-- Subtle Glowing Heart Star Between Swan Beaks -->
+                        <circle cx="200" cy="48" r="2.2" fill="#FFF3D6" class="twinkle-star"/>
+
+                        <!-- BOTTOM-LEFT BURGUNDY, CRIMSON & BLUSH ROSE BOUQUET -->
+                        <g transform="translate(-8, 86)">
+                            <!-- Sage & Emerald Leaves -->
+                            <path d="M12,65 Q38,35 68,52 Q42,75 12,65 Z" fill="#1E4638" stroke="#E2B897" stroke-width="0.6"/>
+                            <path d="M35,88 Q75,55 108,82 Q70,102 35,88 Z" fill="#17382C" stroke="#E2B897" stroke-width="0.6"/>
+                            <path d="M4,42 Q26,15 48,34 Q24,52 4,42 Z" fill="#285948"/>
+                            <!-- Deep Burgundy Rose -->
+                            <circle cx="38" cy="68" r="22" fill="#6E1423" stroke="#E2B897" stroke-width="0.8"/>
+                            <path d="M28,64 Q38,52 48,64 Q42,78 28,68 Z" fill="#8F1D30"/>
+                            <circle cx="38" cy="66" r="7" fill="#4A0B15"/>
+                            <!-- Blush & Champagne Rose -->
+                            <circle cx="74" cy="82" r="18" fill="#E8B4A6" stroke="#FFF3E6" stroke-width="0.8"/>
+                            <path d="M66,79 Q74,69 82,79 Q76,90 66,82 Z" fill="#F5D6BA"/>
+                            <circle cx="74" cy="81" r="5.5" fill="#C98876"/>
+                            <!-- Crimson Rosebud -->
+                            <circle cx="18" cy="45" r="13" fill="#9E2438"/>
+                            <circle cx="18" cy="45" r="5" fill="#F5D6BA"/>
+                            <!-- Baby's Breath Gold Pearls -->
+                            <circle cx="58" cy="48" r="2.5" fill="#FFF3E6"/>
+                            <circle cx="66" cy="54" r="2" fill="#F5D6BA"/>
+                            <circle cx="96" cy="70" r="2.5" fill="#FFF3E6"/>
+                        </g>
+
+                        <!-- BOTTOM-RIGHT BURGUNDY, CRIMSON & BLUSH ROSE BOUQUET -->
+                        <g transform="translate(408, 86) scale(-1, 1)">
+                            <!-- Sage & Emerald Leaves -->
+                            <path d="M12,65 Q38,35 68,52 Q42,75 12,65 Z" fill="#1E4638" stroke="#E2B897" stroke-width="0.6"/>
+                            <path d="M35,88 Q75,55 108,82 Q70,102 35,88 Z" fill="#17382C" stroke="#E2B897" stroke-width="0.6"/>
+                            <path d="M4,42 Q26,15 48,34 Q24,52 4,42 Z" fill="#285948"/>
+                            <!-- Deep Burgundy Rose -->
+                            <circle cx="38" cy="68" r="22" fill="#6E1423" stroke="#E2B897" stroke-width="0.8"/>
+                            <path d="M28,64 Q38,52 48,64 Q42,78 28,68 Z" fill="#8F1D30"/>
+                            <circle cx="38" cy="66" r="7" fill="#4A0B15"/>
+                            <!-- Blush & Champagne Rose -->
+                            <circle cx="74" cy="82" r="18" fill="#E8B4A6" stroke="#FFF3E6" stroke-width="0.8"/>
+                            <path d="M66,79 Q74,69 82,79 Q76,90 66,82 Z" fill="#F5D6BA"/>
+                            <circle cx="74" cy="81" r="5.5" fill="#C98876"/>
+                            <!-- Crimson Rosebud -->
+                            <circle cx="18" cy="45" r="13" fill="#9E2438"/>
+                            <circle cx="18" cy="45" r="5" fill="#F5D6BA"/>
+                            <!-- Baby's Breath Gold Pearls -->
+                            <circle cx="58" cy="48" r="2.5" fill="#FFF3E6"/>
+                            <circle cx="66" cy="54" r="2" fill="#F5D6BA"/>
+                            <circle cx="96" cy="70" r="2.5" fill="#FFF3E6"/>
+                        </g>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==============================================================
+             2. ROYAL EMERALD & CELESTIAL ROSE-GOLD INVITATION DETAILS CARD
+        =============================================================== -->
+        <section id="section-invite" class="reveal relative m-3 sm:m-5 p-6 sm:p-8 emerald-glass-card rounded-3xl text-center overflow-hidden">
+            
+            <!-- Hanging Moroccan Gold Lanterns & Twinkling Stars -->
+            <svg class="lantern-sway absolute top-0 left-5 w-8 h-24 text-rosegold/70 pointer-events-none" viewBox="0 0 40 120" fill="none">
+                <line x1="20" y1="0" x2="20" y2="45" stroke="currentColor" stroke-width="1"/>
+                <path d="M12 45 L28 45 L32 65 L20 82 L8 65 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(226,184,151,0.12)"/>
+                <circle cx="20" cy="62" r="4" fill="#FFF3D6" class="twinkle-star"/>
+            </svg>
+            <svg class="lantern-sway absolute top-0 right-5 w-8 h-20 text-rosegold/70 pointer-events-none" style="animation-delay: 1.4s;" viewBox="0 0 40 100" fill="none">
+                <line x1="20" y1="0" x2="20" y2="32" stroke="currentColor" stroke-width="1"/>
+                <path d="M13 32 L27 32 L30 50 L20 64 L10 50 Z" stroke="currentColor" stroke-width="1.2" fill="rgba(226,184,151,0.12)"/>
+                <circle cx="20" cy="48" r="3.5" fill="#FFF3D6" class="twinkle-star"/>
+            </svg>
+
+            <!-- Top Arabic Bismillah Calligraphy -->
+            <div class="pt-2 mb-4">
+                <p class="font-arabic text-2xl sm:text-3xl text-rosegold-light tracking-wider mb-2">
+                    بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ
+                </p>
+                <div class="flex items-center justify-center gap-2">
                     <span class="h-[1px] w-14 bg-gradient-to-r from-transparent to-rosegold/60"></span>
-                    <span class="text-rosegold text-xs">❖</span>
+                    <span class="text-rosegold text-xs">✦</span>
                     <span class="h-[1px] w-14 bg-gradient-to-l from-transparent to-rosegold/60"></span>
                 </div>
             </div>
 
-            <!-- Groom's Parents / Hosts at the Start -->
-            <div class="reveal active space-y-1.5 mb-6">
-                <h2 class="font-cinzel text-sm sm:text-base font-bold tracking-[0.14em] text-rosegold-light uppercase">
+            <!-- Groom's Parents / Hosts at the Start of the Invitation -->
+            <div class="mb-5">
+                <h2 class="font-cinzel text-sm sm:text-base font-bold tracking-[0.12em] text-rosegold-light uppercase mb-1">
                     MR. Mohammed Kunhi Haji (Late) &amp; MRS. Surayya
                 </h2>
                 <p class="font-serif text-base sm:text-lg text-champagne/90 leading-snug">
                     Murshida Manzil, Thotty, P.O Pallikkere
                 </p>
-                <p class="font-sans text-xs tracking-[0.18em] text-rosegold font-medium">
+                <p class="font-sans text-xs tracking-[0.22em] text-rosegold font-semibold mt-1">
                     9037077571
                 </p>
             </div>
 
             <!-- Formal Invitation Message -->
-            <div class="reveal active max-w-sm mx-auto mb-7">
-                <p class="font-serif italic text-lg sm:text-xl text-pearl/90 leading-relaxed">
-                    We request your blessings and esteemed presence, along with your family, on the auspicious occasion of the wedding ceremony of
-                </p>
-            </div>
+            <p class="font-serif italic text-base sm:text-lg text-champagne/80 max-w-sm mx-auto leading-relaxed mb-6">
+                "We request your blessings and esteemed presence, along with your family, on the auspicious occasion of the wedding ceremony"
+            </p>
 
-            <!-- GROOM FIRST: ABID MOHAMMED -->
-            <div class="reveal active py-3 px-4 rounded-2xl bg-emerald-950/60 border border-rosegold/30 mb-4 shadow-inner">
-                <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">The Groom</span>
-                <h1 class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer tracking-[0.12em] mb-1">
+            <!-- GROOM FIRST (At Top) -->
+            <div class="py-3 px-4 rounded-2xl bg-emerald-velvet/70 border border-rosegold/30 mb-4">
+                <span class="text-[10px] font-cinzel uppercase tracking-[0.32em] text-rosegold block mb-1">The Groom</span>
+                <h1 class="font-cinzel text-2xl sm:text-3xl font-bold tracking-[0.1em] rosegold-shimmer uppercase">
                     ABID MOHAMMED
                 </h1>
-                <p class="font-serif italic text-base sm:text-lg text-champagne/90">
+                <p class="font-serif italic text-sm sm:text-base text-champagne/85 mt-1">
                     Grand s/o late Kunhammed &amp; Sulaiman
                 </p>
             </div>
 
-            <!-- Ornate Divider -->
-            <div class="reveal active flex items-center justify-center gap-4 my-3">
-                <span class="h-[1px] w-16 bg-gradient-to-r from-transparent to-rosegold/60"></span>
-                <span class="font-script text-3xl text-rosegold">&amp;</span>
-                <span class="h-[1px] w-16 bg-gradient-to-l from-transparent to-rosegold/60"></span>
+            <!-- Geometric Union Divider -->
+            <div class="flex items-center justify-center gap-3 my-3">
+                <span class="h-[1px] w-12 bg-gradient-to-r from-transparent to-rosegold/60"></span>
+                <span class="w-8 h-8 rounded-full border border-rosegold/50 bg-emerald-velvet flex items-center justify-center font-script text-xl text-rosegold-light">
+                    &amp;
+                </span>
+                <span class="h-[1px] w-12 bg-gradient-to-l from-transparent to-rosegold/60"></span>
             </div>
 
-            <!-- BRIDE SECOND: AYSHATH MISHFA -->
-            <div class="reveal active py-3.5 px-4 rounded-2xl bg-emerald-950/60 border border-rosegold/30 mt-4 mb-7 shadow-inner">
-                <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">The Bride</span>
-                <h1 class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer tracking-[0.12em] mb-1">
+            <!-- BRIDE SECOND (Below Groom) -->
+            <div class="py-3 px-4 rounded-2xl bg-emerald-velvet/70 border border-rosegold/30 mb-6">
+                <span class="text-[10px] font-cinzel uppercase tracking-[0.32em] text-rosegold block mb-1">The Bride</span>
+                <h1 class="font-cinzel text-2xl sm:text-3xl font-bold tracking-[0.1em] rosegold-shimmer uppercase">
                     AYSHATH MISHFA
                 </h1>
-                <p class="font-serif italic text-base sm:text-lg text-champagne/90">
-                    d/o MR. ABDULLA M.A
+                <p class="font-serif italic text-sm sm:text-base text-champagne/90 mt-1">
+                    d/o MR. ABDULLA M.A & MRS. SHEHANAZ
                 </p>
-                <p class="font-serif text-sm sm:text-base text-pearl/80 mt-0.5">
-                    Mishba Manzil, near kunil mosque,<br>Muttam p.o. Shiriya
+                <p class="font-serif text-xs sm:text-sm text-champagne/75 mt-0.5">
+                    Mishba Manzil, near kunil mosque, Muttam p.o. Shiriya
                 </p>
             </div>
 
-            <!-- Dual Calendar Date Box (Gregorian & Hijri) -->
-            <div class="reveal grid grid-cols-2 gap-3 p-4 rounded-2xl bg-emerald-950/80 border border-rosegold/35 mb-7">
-                <!-- Gregorian Date -->
-                <div class="flex items-center gap-3 text-left pr-2 border-r border-rosegold/25">
-                    <div class="w-10 h-10 rounded-xl bg-rosegold/15 border border-rosegold/40 flex items-center justify-center shrink-0 text-rosegold">
-                        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke-width="1.7"></rect>
-                            <line x1="16" y1="2" x2="16" y2="6" stroke-width="1.7"></line>
-                            <line x1="8" y1="2" x2="8" y2="6" stroke-width="1.7"></line>
-                            <line x1="3" y1="10" x2="21" y2="10" stroke-width="1.7"></line>
+            <!-- Dual Gregorian & Hijri Calendar Badges -->
+            <div class="grid grid-cols-2 gap-3 p-3.5 rounded-2xl bg-emerald-deep/75 border border-rosegold/35 mb-6">
+                <div class="flex items-center gap-2.5 text-left pr-2 border-r border-rosegold/25">
+                    <div class="w-9 h-9 rounded-xl bg-rosegold/15 border border-rosegold/40 flex items-center justify-center shrink-0 text-rosegold-light">
+                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke-width="1.8"></rect>
+                            <line x1="16" y1="2" x2="16" y2="6" stroke-width="1.8"></line>
+                            <line x1="8" y1="2" x2="8" y2="6" stroke-width="1.8"></line>
+                            <line x1="3" y1="10" x2="21" y2="10" stroke-width="1.8"></line>
                         </svg>
                     </div>
                     <div>
-                        <p class="text-[11px] uppercase tracking-wider text-pearl/75">On Saturday</p>
-                        <p class="font-serif font-bold text-sm sm:text-base text-rosegold-light leading-tight">12<sup class="text-[10px]">th</sup> Dec 2026</p>
+                        <p class="text-[10px] uppercase tracking-wider text-rosegold/80">On Saturday</p>
+                        <p class="font-serif font-bold text-sm sm:text-base text-champagne leading-tight">12<sup class="text-[9px]">th</sup> Dec 2026</p>
                     </div>
                 </div>
 
-                <!-- Hijri Date -->
-                <div class="flex items-center gap-3 text-left pl-1">
-                    <div class="w-10 h-10 rounded-xl bg-rosegold/15 border border-rosegold/40 flex items-center justify-center shrink-0 text-rosegold">
-                        <svg class="w-5 h-5" viewBox="0 0 24 24" fill="currentColor">
+                <div class="flex items-center gap-2.5 text-left pl-1">
+                    <div class="w-9 h-9 rounded-xl bg-rosegold/15 border border-rosegold/40 flex items-center justify-center shrink-0 text-rosegold-light">
+                        <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
                             <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
                         </svg>
                     </div>
                     <div>
-                        <p class="text-[11px] uppercase tracking-wider text-pearl/75">Hijra 1448</p>
-                        <p class="font-serif font-bold text-sm sm:text-base text-rosegold-light leading-tight">Rajab 3</p>
+                        <p class="text-[10px] uppercase tracking-wider text-rosegold/80">Hijra 1448</p>
+                        <p class="font-serif font-bold text-sm sm:text-base text-champagne leading-tight">Rajab 3</p>
                     </div>
                 </div>
             </div>
 
-            <!-- Mosque Silhouette & Nikah Timing -->
-            <div class="reveal flex flex-col items-center mb-6">
-                <svg class="w-14 h-10 text-rosegold mb-2" viewBox="0 0 64 44" fill="currentColor">
-                    <path d="M32 4C32 4 22 12 22 22V28H42V22C42 12 32 4 32 4ZM32 0L33.5 3H30.5L32 0ZM12 14L14 18V36H10V18L12 14ZM52 14L54 18V36H50V18L52 14ZM6 36H58V40H6V36Z"/>
+            <!-- Mosque Silhouette & Nikah Time Highlight -->
+            <div class="p-4 rounded-2xl bg-gradient-to-b from-emerald-velvet/90 to-emerald-deep/90 border border-rosegold/40">
+                <svg class="w-12 h-9 mx-auto mb-1 text-rosegold" viewBox="0 0 64 44" fill="currentColor">
+                    <path d="M32 4C32 4 22 12 22 22H42C42 12 32 4 32 4ZM12 18V38H52V22H12V18ZM8 14L6 20V38H10V20L8 14ZM56 14L54 20V38H58V20L56 14Z"/>
                 </svg>
-                <p class="font-serif italic text-lg text-pearl/90">Nikah after asar namaz</p>
-                <p class="font-cinzel text-2xl sm:text-3xl font-bold text-rosegold-light tracking-wider my-1">4:30 PM</p>
-                <p class="font-serif italic text-base text-pearl/80">@ Bride's Residence (Mishba Manzil, Shiriya)</p>
-            </div>
+                <p class="font-serif italic text-base sm:text-lg text-rosegold-light">Nikah after asar namaz</p>
+                <p class="font-cinzel text-2xl sm:text-3xl font-bold text-champagne tracking-wider my-0.5">4:30 PM</p>
+                <p class="font-serif italic text-sm text-champagne/80 mb-3">@ Thotty Juma Masjid , Near Groom Residence
 
-            <!-- Reception Badge -->
-            <div class="reveal inline-block w-full max-w-xs">
-                <div class="ornate-emerald-pill py-3 px-8 rounded-full shadow-lg">
-                    <span class="font-serif text-base sm:text-lg tracking-wide text-rosegold-light font-medium">Reception after nikah</span>
+</p>
+                <div class="inline-block px-5 py-1.5 rounded-full border border-rosegold/50 bg-rosegold/10 font-serif text-xs sm:text-sm text-rosegold-light">
+                    Reception after nikah
                 </div>
             </div>
         </section>
 
-        <!-- ==========================================
-             3. LIVE COUNTDOWN & CALENDAR SECTION
-        =========================================== -->
-        <section id="section-countdown" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-card rounded-3xl text-center">
+        <!-- ==============================================================
+             3. LIVE COUNTDOWN & CALENDAR SAVE SECTION
+        =============================================================== -->
+        <section id="section-countdown" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-glass-card rounded-3xl text-center relative overflow-hidden">
             <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Counting Down To</span>
-            <h3 class="font-cinzel text-xl font-bold text-champagne tracking-widest mb-5">THE BLESSED UNION</h3>
+            <h3 class="font-cinzel text-lg sm:text-xl font-bold tracking-[0.15em] rosegold-shimmer uppercase mb-5">
+                The Blessed Union
+            </h3>
 
-            <!-- 4 Countdown Badges -->
-            <div class="grid grid-cols-4 gap-2.5 sm:gap-3.5 mb-6">
-                <div class="p-3 rounded-2xl bg-emerald-950/85 border border-rosegold/40 shadow-inner">
-                    <span id="cd-days" class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer block">00</span>
-                    <span class="text-[10px] uppercase tracking-widest text-pearl/70">Days</span>
+            <!-- 4 Rose-Gold Ring Countdown Badges -->
+            <div class="grid grid-cols-4 gap-2.5 mb-6">
+                <div class="p-3 rounded-2xl bg-emerald-deep/85 border border-rosegold/40 shadow-inner">
+                    <span id="cd-days" class="font-cinzel text-2xl sm:text-3xl font-bold text-rosegold-light block">00</span>
+                    <span class="text-[10px] font-cinzel uppercase tracking-widest text-champagne/70">Days</span>
                 </div>
-                <div class="p-3 rounded-2xl bg-emerald-950/85 border border-rosegold/40 shadow-inner">
-                    <span id="cd-hours" class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer block">00</span>
-                    <span class="text-[10px] uppercase tracking-widest text-pearl/70">Hours</span>
+                <div class="p-3 rounded-2xl bg-emerald-deep/85 border border-rosegold/40 shadow-inner">
+                    <span id="cd-hours" class="font-cinzel text-2xl sm:text-3xl font-bold text-rosegold-light block">00</span>
+                    <span class="text-[10px] font-cinzel uppercase tracking-widest text-champagne/70">Hours</span>
                 </div>
-                <div class="p-3 rounded-2xl bg-emerald-950/85 border border-rosegold/40 shadow-inner">
-                    <span id="cd-mins" class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer block">00</span>
-                    <span class="text-[10px] uppercase tracking-widest text-pearl/70">Mins</span>
+                <div class="p-3 rounded-2xl bg-emerald-deep/85 border border-rosegold/40 shadow-inner">
+                    <span id="cd-mins" class="font-cinzel text-2xl sm:text-3xl font-bold text-rosegold-light block">00</span>
+                    <span class="text-[10px] font-cinzel uppercase tracking-widest text-champagne/70">Mins</span>
                 </div>
-                <div class="p-3 rounded-2xl bg-emerald-950/85 border border-rosegold/40 shadow-inner">
-                    <span id="cd-secs" class="font-cinzel text-2xl sm:text-3xl font-bold rosegold-shimmer block">00</span>
-                    <span class="text-[10px] uppercase tracking-widest text-pearl/70">Secs</span>
+                <div class="p-3 rounded-2xl bg-emerald-deep/85 border border-rosegold/40 shadow-inner">
+                    <span id="cd-secs" class="font-cinzel text-2xl sm:text-3xl font-bold text-rosegold-light block">00</span>
+                    <span class="text-[10px] font-cinzel uppercase tracking-widest text-champagne/70">Secs</span>
                 </div>
             </div>
 
-            <!-- Save to Calendar Buttons -->
+            <!-- Save the Date Buttons -->
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
                 <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Wedding+of+Abid+Mohammed+%26+Ayshath+Mishfa&dates=20261212T110000Z/20261212T150000Z&details=Nikah+after+Asar+Namaz+at+4:30+PM+followed+by+Reception.+Hosted+by+Mrs.+Surayya+%26+Family.&location=Mishba+Manzil,+Near+Kunil+Mosque,+Muttam+P.O.,+Shiriya"
                    target="_blank" rel="noopener noreferrer"
@@ -461,7 +874,7 @@
                     </svg>
                     <span>Google Calendar</span>
                 </a>
-                <button onclick="downloadICS()" class=" py-3.5 px-4 rounded-xl bg-emerald-950/90 hover:bg-emerald-900 border border-rosegold/50 text-rosegold-light font-cinzel text-xs uppercase tracking-wider font-semibold flex items-center justify-center gap-2 transition cursor-pointer">
+                <button onclick="downloadICS()" class="py-3.5 px-4 rounded-xl bg-emerald-deep/90 hover:bg-emerald-velvet border border-rosegold/50 text-rosegold-light font-cinzel text-xs uppercase tracking-wider font-semibold flex items-center justify-center gap-2 transition cursor-pointer">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"></path>
                     </svg>
@@ -470,275 +883,411 @@
             </div>
         </section>
 
-        <!-- ==========================================
-             4. VENUE & DIRECTIONS SECTION (NO CALL/WA)
-        =========================================== -->
-        <section id="section-venue" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-card rounded-3xl text-center">
-            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Location &amp; Route</span>
-            <h3 class="font-cinzel text-xl font-bold text-champagne tracking-widest mb-5">RESIDENCE &amp; VENUE</h3>
+        <!-- ==============================================================
+             4. SACRED COVENANT OF NIKAH & ROSE PETAL SHOWER SECTION
+        =============================================================== -->
+        <section id="section-nikah" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-glass-card rounded-3xl text-center relative overflow-hidden">
+            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Al-Mithaq Al-Ghalith</span>
+            <h3 class="font-cinzel text-lg sm:text-xl font-bold tracking-[0.14em] rosegold-shimmer uppercase mb-3">
+                The Sacred Bond of Nikah
+            </h3>
 
-            <div class="grid grid-cols-1 gap-3.5 text-left mb-5">
-                <!-- Groom's Host Residence -->
-                <div class="p-4 rounded-2xl bg-emerald-950/75 border border-rosegold/30">
-                    <div class="flex items-center justify-between mb-1">
-                        <span class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold font-semibold">Groom's Residence</span>
-                        <span class="text-xs text-rosegold/70">✦</span>
-                    </div>
-                    <p class="font-cinzel text-sm font-bold text-champagne">Murshida Manzil</p>
-                    <p class="font-serif text-sm text-pearl/85">Thotty, P.O Pallikkere, Kasaragod</p>
-                </div>
-
-                <!-- Nikah & Bride's Residence -->
-                <div class="p-4 rounded-2xl bg-emerald-950/75 border border-rosegold/30">
-                    <div class="flex items-center justify-between mb-1">
-                        <span class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold font-semibold">Nikah Venue (4:30 PM)</span>
-                        <span class="text-xs text-rosegold/70">✦</span>
-                    </div>
-                    <p class="font-cinzel text-sm font-bold text-champagne">Mishba Manzil</p>
-                    <p class="font-serif text-sm text-pearl/85">Near Kunil Mosque, Muttam P.O., Shiriya</p>
-                </div>
-            </div>
-
-            <!-- Interactive Map Embed -->
-            <div class="rounded-2xl overflow-hidden border border-rosegold/40 h-48 mb-4 bg-emerald-950 relative">
-                <iframe 
-                    title="Venue Map"
-                    class="w-full h-full grayscale contrast-125 opacity-85"
-                    src="https://www.google.com/maps?q=Muttam+Shiriya+Kasaragod+Kerala&output=embed"
-                    loading="lazy">
-                </iframe>
-            </div>
-
-            <a href="https://www.google.com/maps/search/?api=1&query=Kunil+Mosque+Muttam+Shiriya+Kasaragod"
-               target="_blank" rel="noopener noreferrer"
-               class="w-full rosegold-btn font-cinzel text-xs uppercase tracking-widest font-bold py-3.5 px-6 rounded-xl flex items-center justify-center gap-2 shadow-lg">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+            <!-- Mosque & Interlocking Rings Illustration -->
+            <div class="flex justify-center my-3">
+                <svg class="w-24 h-16 text-rosegold" viewBox="0 0 120 75" fill="none">
+                    <path d="M60 8 C60 8 42 20 42 36 L78 36 C78 20 60 8 60 8 Z" fill="#E2B897" fill-opacity="0.18" stroke="#E2B897" stroke-width="1.5"/>
+                    <path d="M60 2 L60 8 M30 22 L30 48 M90 22 L90 48" stroke="#E2B897" stroke-width="1.5" stroke-linecap="round"/>
+                    <circle cx="52" cy="54" r="13" stroke="#F5D6BA" stroke-width="2" fill="none"/>
+                    <circle cx="68" cy="54" r="13" stroke="#C99366" stroke-width="2" fill="none"/>
+                    <polygon points="52,38 55,42 49,42" fill="#FFF3D6"/>
                 </svg>
-                <span>Open Route in Google Maps</span>
-            </a>
-        </section>
+            </div>
 
-        <!-- ==========================================
-             5. SACRED MARRIAGE BLESSING & PETAL SHOWER
-        =========================================== -->
-        <section id="section-blessing" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-card rounded-3xl text-center">
-            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Sacred Prayer</span>
-            <h3 class="font-cinzel text-xl font-bold text-champagne tracking-widest mb-4">PROPHETIC BLESSING</h3>
+            <p class="font-serif italic text-base sm:text-lg text-champagne/85 leading-relaxed mb-5">
+                In Islam, <strong class="font-semibold text-rosegold-light">Nikah</strong> is a sacred covenant of love, mutual respect, and spiritual companionship—uniting two souls and two families under the grace and mercy of Allah.
+            </p>
 
-            <div class="p-5 rounded-2xl bg-emerald-950/80 border border-rosegold/35 mb-5">
-                <p class="font-arabic text-2xl sm:text-3xl text-rosegold-light leading-relaxed mb-3">
+            <!-- 3 Quranic Pillars of Nikah -->
+            <div class="grid grid-cols-3 gap-2.5 mb-6">
+                <div class="p-3 rounded-2xl bg-emerald-deep/80 border border-rosegold/35">
+                    <p class="font-arabic text-xl text-rosegold-light mb-0.5">سَكِينَة</p>
+                    <p class="font-cinzel text-[10px] font-bold tracking-wider uppercase text-champagne">Sakinah</p>
+                    <p class="font-serif italic text-xs text-champagne/70 mt-0.5">Tranquility</p>
+                </div>
+                <div class="p-3 rounded-2xl bg-emerald-deep/80 border border-rosegold/35">
+                    <p class="font-arabic text-xl text-rosegold-light mb-0.5">مَوَدَّة</p>
+                    <p class="font-cinzel text-[10px] font-bold tracking-wider uppercase text-champagne">Mawaddah</p>
+                    <p class="font-serif italic text-xs text-champagne/70 mt-0.5">Deep Love</p>
+                </div>
+                <div class="p-3 rounded-2xl bg-emerald-deep/80 border border-rosegold/35">
+                    <p class="font-arabic text-xl text-rosegold-light mb-0.5">رَحْمَة</p>
+                    <p class="font-cinzel text-[10px] font-bold tracking-wider uppercase text-champagne">Rahmah</p>
+                    <p class="font-serif italic text-xs text-champagne/70 mt-0.5">Endless Mercy</p>
+                </div>
+            </div>
+
+            <!-- Prophetic Blessing & Quranic Verse -->
+            <div class="p-5 rounded-2xl bg-emerald-deep/90 border border-rosegold/45 shadow-lg mb-5">
+                <p class="font-arabic text-xl sm:text-2xl text-rosegold-light leading-relaxed mb-2">
                     بَارَكَ اللَّهُ لَكُمَا وَبَارَكَ عَلَيْكُمَا وَجَمَعَ بَيْنَكُمَا فِي خَيْرٍ
                 </p>
-                <p class="font-serif italic text-base sm:text-lg text-champagne/90 leading-relaxed">
+                <p class="font-serif italic text-sm sm:text-base text-champagne/90 leading-relaxed">
                     "May Allah bless you both, shower His blessings upon you, and join you together in goodness."
                 </p>
-                <div class="flex items-center justify-center gap-2 my-3">
-                    <span class="h-[1px] w-10 bg-rosegold/30"></span>
-                    <span class="text-rosegold text-xs">✦</span>
-                    <span class="h-[1px] w-10 bg-rosegold/30"></span>
-                </div>
-                <p class="font-serif text-xs sm:text-sm text-pearl/75">
-                    "And among His Signs is that He created for you mates from among yourselves, that you may dwell in tranquility with them, and He has put love and mercy between your hearts." <span class="text-rosegold block mt-1 font-cinzel text-[10px]">— Surah Ar-Rum (30:21)</span>
+                <div class="h-[1px] w-20 bg-rosegold/35 mx-auto my-3"></div>
+                <p class="font-serif text-xs sm:text-sm text-champagne/80">
+                    "And He has put love and mercy between your hearts." — <span class="font-cinzel text-[10px] tracking-wider text-rosegold">Surah Ar-Rum 30:21</span>
                 </p>
             </div>
 
             <!-- Interactive Rose Petal Shower Button -->
             <button onclick="showerRosePetals()" class="w-full rosegold-btn font-cinzel text-xs uppercase tracking-[0.18em] font-bold py-4 px-6 rounded-xl flex items-center justify-center gap-2.5 shadow-xl cursor-pointer">
-                <span>🌸 Shower Rose Petals &amp; Blessings</span>
+                <span>🌹 Shower Rose Petals &amp; Blessings</span>
             </button>
-            <p id="petal-status" class="text-[11px] text-rosegold-light/80 mt-2.5 font-serif italic">
-                Tap above to celebrate Abid &amp; Ayshath with a royal petal shower
+            <p id="petal-status" class="text-[11px] text-champagne/70 mt-2 font-serif italic">
+                Tap above to celebrate Abid &amp; Ayshath with a golden &amp; crimson rose petal shower
             </p>
         </section>
 
-        <!-- ==========================================
-             6. DIGITAL KEEPSAKE PASS & SHARE CARD
-        =========================================== -->
-        <section class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-card rounded-3xl text-center">
-            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Royal Keepsake</span>
-            <h3 class="font-cinzel text-xl font-bold text-champagne tracking-widest mb-4">WEDDING INVITATION PASS</h3>
+        <!-- ==============================================================
+             4.5. SUNNAHS & ETIQUETTE OF NIKAH PAGE
+        =============================================================== -->
+        <section id="section-sunnah" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-glass-card rounded-3xl text-center relative overflow-hidden">
+            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Prophetic Traditions</span>
+            <h3 class="font-cinzel text-lg sm:text-xl font-bold tracking-[0.14em] rosegold-shimmer uppercase mb-2">
+                Sunnahs &amp; Etiquette of Nikah
+            </h3>
+            <p class="font-serif italic text-sm sm:text-base text-champagne/80 max-w-sm mx-auto mb-6">
+                "Marriage is part of my Sunnah, and whoever does not follow my Sunnah has nothing to do with me." — <span class="text-rosegold-light not-italic font-cinzel text-[10px] tracking-wider">Sunan Ibn Majah</span>
+            </p>
 
-            <!-- Perforated Ticket Style Card -->
-            <div class="p-5 rounded-2xl bg-gradient-to-b from-emerald-950/90 to-emerald-900/80 border border-dashed border-rosegold/50 mb-5">
-                <div class="flex items-center justify-between border-b border-rosegold/25 pb-3 mb-3 text-left">
-                    <div>
-                        <p class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold">Admit Family &amp; Guests</p>
-                        <p class="font-cinzel text-base font-bold text-champagne">ABID &amp; AYSHATH</p>
+            <!-- 4 Sacred Sunnah & Etiquette Cards -->
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 text-left mb-5">
+                <!-- Sunnah 1: Answering the Invitation -->
+                <div class="p-4 rounded-2xl bg-emerald-deep/85 border border-rosegold/35 hover:border-rosegold/65 transition">
+                    <div class="flex items-center gap-2.5 mb-2">
+                        <div class="w-8 h-8 rounded-xl bg-rosegold/15 border border-rosegold/45 flex items-center justify-center text-rosegold-light shrink-0">
+                            <span class="font-cinzel text-xs font-bold">01</span>
+                        </div>
+                        <h4 class="font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase text-rosegold-light">
+                            Honoring the Invite
+                        </h4>
                     </div>
-                    <div class="text-right">
-                        <p class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold">Hijra 1448</p>
-                        <p class="font-cinzel text-xs font-bold text-rosegold-light">12 . 12 . 2026</p>
-                    </div>
+                    <p class="font-serif text-sm text-champagne/85 leading-relaxed">
+                        Accepting a wedding invitation and attending the gathering with joy and pure intentions is an emphasized Sunnah that strengthens brotherhood and family ties.
+                    </p>
                 </div>
 
-                <div class="grid grid-cols-2 gap-2 text-left text-xs mb-3">
-                    <div>
-                        <span class="text-pearl/60 block text-[10px] uppercase">Time</span>
-                        <span class="text-champagne font-medium">4:30 PM (After Asar)</span>
+                <!-- Sunnah 2: Reciting the Masnoon Dua -->
+                <div class="p-4 rounded-2xl bg-emerald-deep/85 border border-rosegold/35 hover:border-rosegold/65 transition">
+                    <div class="flex items-center gap-2.5 mb-2">
+                        <div class="w-8 h-8 rounded-xl bg-rosegold/15 border border-rosegold/45 flex items-center justify-center text-rosegold-light shrink-0">
+                            <span class="font-cinzel text-xs font-bold">02</span>
+                        </div>
+                        <h4 class="font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase text-rosegold-light">
+                            Blessing the Couple
+                        </h4>
                     </div>
-                    <div>
-                        <span class="text-pearl/60 block text-[10px] uppercase">Ceremony</span>
-                        <span class="text-champagne font-medium">Nikah &amp; Reception</span>
+                    <p class="font-serif text-sm text-champagne/85 leading-relaxed">
+                        Greet the newlyweds with the Prophetic supplication: <em class="text-rosegold-light">"Barakallahu lakuma wa baraka 'alaykuma..."</em> praying for lasting harmony and righteousness.
+                    </p>
+                </div>
+
+                <!-- Sunnah 3: Asar Namaz & Spiritual Gathering -->
+                <div class="p-4 rounded-2xl bg-emerald-deep/85 border border-rosegold/35 hover:border-rosegold/65 transition">
+                    <div class="flex items-center gap-2.5 mb-2">
+                        <div class="w-8 h-8 rounded-xl bg-rosegold/15 border border-rosegold/45 flex items-center justify-center text-rosegold-light shrink-0">
+                            <span class="font-cinzel text-xs font-bold">03</span>
+                        </div>
+                        <h4 class="font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase text-rosegold-light">
+                            Sacred Time (After Asar)
+                        </h4>
                     </div>
+                    <p class="font-serif text-sm text-champagne/85 leading-relaxed">
+                        Conducting the Nikah after <strong class="text-rosegold-light font-semibold">Asar Namaz (4:30 PM)</strong> gathers the angels of mercy and fills the beginning of their marital life with barakah.
+                    </p>
+                </div>
+
+                <!-- Sunnah 4: Sharing the Walimah / Reception Feast -->
+                <div class="p-4 rounded-2xl bg-emerald-deep/85 border border-rosegold/35 hover:border-rosegold/65 transition">
+                    <div class="flex items-center gap-2.5 mb-2">
+                        <div class="w-8 h-8 rounded-xl bg-rosegold/15 border border-rosegold/45 flex items-center justify-center text-rosegold-light shrink-0">
+                            <span class="font-cinzel text-xs font-bold">04</span>
+                        </div>
+                        <h4 class="font-cinzel text-xs sm:text-sm font-bold tracking-wider uppercase text-rosegold-light">
+                            The Reception Feast
+                        </h4>
+                    </div>
+                    <p class="font-serif text-sm text-champagne/85 leading-relaxed">
+                        Partaking in the wedding meal after the Nikah and praying for the hosts (<em class="text-rosegold-light">"Allahumma barik lahum fima razaqtahum"</em>) completes the Sunnah of celebration.
+                    </p>
                 </div>
             </div>
 
-            <div class="grid grid-cols-2 gap-3">
-                <button onclick="shareInvitation()" class="py-3.5 px-4 rounded-xl bg-emerald-950/90 hover:bg-emerald-900 border border-rosegold/50 text-rosegold-light font-cinzel text-xs uppercase tracking-wider font-semibold flex items-center justify-center gap-2 transition cursor-pointer">
+            <!-- Etiquette Footer Pill -->
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-rosegold/10 border border-rosegold/40 text-xs font-serif italic text-rosegold-light">
+                <span>✦</span>
+                <span>Your sincere Duas &amp; punctual presence after Asar Namaz are our greatest gift</span>
+                <span>✦</span>
+            </div>
+        </section>
+
+        <!-- ==============================================================
+             5. VENUE & GOOGLE MAPS NAVIGATION SECTION
+        =============================================================== -->
+        <section id="section-venue" class="reveal m-3 sm:m-5 p-6 sm:p-8 emerald-glass-card rounded-3xl text-center">
+            <span class="text-[10px] font-cinzel uppercase tracking-[0.3em] text-rosegold block mb-1">Destination &amp; Route</span>
+            <h3 class="font-cinzel text-lg sm:text-xl font-bold tracking-[0.14em] rosegold-shimmer uppercase mb-2">
+                Venue &amp; Directions
+            </h3>
+            <p class="font-serif text-sm sm:text-base text-champagne/80 mb-5">
+                Saturday, 12th December 2026 • Nikah at 4:30 PM
+            </p>
+
+            <div class="grid grid-cols-1 gap-3.5 text-left mb-5">
+                <div class="p-4 rounded-2xl bg-emerald-deep/80 border border-rosegold/40">
+                    <div class="flex items-center justify-between mb-1">
+                        <span class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold font-bold">Nikah &amp; Reception Venue (4:30 PM)</span>
+                        <span class="text-xs text-rosegold">✦</span>
+                    </div>
+                    <p class="font-cinzel text-sm font-bold text-champagne">Mishba Manzil</p>
+                    <p class="font-serif text-sm text-champagne/80">Near Kunil Mosque, Muttam P.O., Shiriya</p>
+                </div>
+
+                <div class="p-4 rounded-2xl bg-emerald-deep/80 border border-rosegold/40">
+                    <div class="flex items-center justify-between mb-1">
+                        <span class="text-[10px] font-cinzel uppercase tracking-widest text-rosegold/85 font-bold">Groom's Residence (Hosts)</span>
+                        <span class="text-xs text-rosegold">✦</span>
+                    </div>
+                    <p class="font-cinzel text-sm font-bold text-champagne">Murshida Manzil</p>
+                    <p class="font-serif text-sm text-champagne/80">Thotty, P.O Pallikkere, Kasaragod</p>
+                </div>
+            </div>
+
+            <!-- Interactive Map Embed -->
+            <div class="rounded-2xl overflow-hidden border border-rosegold/45 h-48 mb-4 bg-emerald-deep relative shadow-md">
+                <iframe 
+                    title="Venue Map"
+                    class="w-full h-full contrast-105 opacity-90"
+                    src="https://www.google.com/maps?q=Muttam+Shiriya+Kasaragod+Kerala&output=embed"
+                    loading="lazy">
+                </iframe>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                <a href="https://www.google.com/maps/search/?api=1&query=Kunil+Mosque+Muttam+Shiriya+Kasaragod"
+                   target="_blank" rel="noopener noreferrer"
+                   class="rosegold-btn font-cinzel text-xs uppercase tracking-widest font-bold py-3.5 px-5 rounded-xl flex items-center justify-center gap-2 shadow-lg">
+                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
+                    </svg>
+                    <span>Open in Maps</span>
+                </a>
+                <button onclick="shareInvitation()" class="py-3.5 px-5 rounded-xl bg-emerald-deep/90 hover:bg-emerald-velvet border border-rosegold/50 text-rosegold-light font-cinzel text-xs uppercase tracking-wider font-semibold flex items-center justify-center gap-2 transition cursor-pointer">
                     <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z"></path>
                     </svg>
                     <span id="share-btn-text">Share Invite</span>
                 </button>
-                <button onclick="window.print()" class="py-3.5 px-4 rounded-xl bg-emerald-950/90 hover:bg-emerald-900 border border-rosegold/50 text-rosegold-light font-cinzel text-xs uppercase tracking-wider font-semibold flex items-center justify-center gap-2 transition cursor-pointer">
-                    <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 17h2a2 2 0 002-2v-4a2 2 0 00-2-2H5a2 2 0 00-2 2v4a2 2 0 002 2h2m2 4h6a2 2 0 002-2v-4a2 2 0 00-2-2H9a2 2 0 00-2 2v4a2 2 0 002 2zm8-12V5a2 2 0 00-2-2H9a2 2 0 00-2 2v4h10z"></path>
-                    </svg>
-                    <span>Save / Print</span>
-                </button>
             </div>
         </section>
 
         <!-- Footer -->
-        <footer class="text-center py-6 px-4 text-pearl/60 text-xs">
-            <p class="font-cinzel tracking-[0.25em] text-rosegold mb-1">ABID &amp; AYSHATH</p>
+        <footer class="text-center py-6 px-4 text-champagne/70 text-xs">
+            <p class="font-cinzel tracking-[0.25em] text-rosegold-light font-bold mb-1">ABID MOHAMMED &amp; AYSHATH MISHFA</p>
             <p class="font-serif italic">With warm regards from Murshida Manzil &amp; Family</p>
         </footer>
 
         <!-- ==========================================
              FLOATING BOTTOM NAVIGATION DOCK
         =========================================== -->
-        <nav class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-[420px] px-4 py-2.5 rounded-full bg-emerald-950/90 backdrop-blur-xl border border-rosegold/45 shadow-[0_10px_30px_rgba(0,0,0,0.85)] flex items-center justify-around">
-            <a href="#section-invite" class="flex flex-col items-center gap-0.5 text-rosegold-light hover:text-rosegold transition">
+        <nav class="fixed bottom-4 left-1/2 -translate-x-1/2 z-40 w-[92%] max-w-[400px] px-4 py-2.5 rounded-full bg-emerald-deep/95 backdrop-blur-xl border border-rosegold/50 shadow-[0_10px_30px_rgba(0,0,0,0.8)] flex items-center justify-around">
+            <a href="#section-landing" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"></path>
                 </svg>
+                <span class="text-[9px] font-cinzel uppercase tracking-wider">Home</span>
+            </a>
+            <a href="#section-invite" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"></path>
+                </svg>
                 <span class="text-[9px] font-cinzel uppercase tracking-wider">Invite</span>
             </a>
-            <a href="#section-countdown" class="flex flex-col items-center gap-0.5 text-rosegold-light hover:text-rosegold transition">
+            <a href="#section-countdown" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z"></path>
                 </svg>
-                <span class="text-[9px] font-cinzel uppercase tracking-wider">Timer</span>
+                <span class="text-[9px] font-cinzel uppercase tracking-wider">Countdown</span>
             </a>
-            <a href="#section-venue" class="flex flex-col items-center gap-0.5 text-rosegold-light hover:text-rosegold transition">
+            <a href="#section-nikah" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path>
+                </svg>
+                <span class="text-[9px] font-cinzel uppercase tracking-wider">Nikah</span>
+            </a>
+            <a href="#section-sunnah" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path>
+                </svg>
+                <span class="text-[9px] font-cinzel uppercase tracking-wider">Sunnah</span>
+            </a>
+            <a href="#section-venue" class="flex flex-col items-center gap-0.5 text-champagne hover:text-rosegold-light transition">
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                 </svg>
                 <span class="text-[9px] font-cinzel uppercase tracking-wider">Venue</span>
             </a>
-            <button onclick="showerRosePetals()" class="flex flex-col items-center gap-0.5 text-rosegold-light hover:text-rosegold transition cursor-pointer">
-                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"></path>
-                </svg>
-                <span class="text-[9px] font-cinzel uppercase tracking-wider">Blessings</span>
-            </button>
         </nav>
     </main>
 
     <!-- ==========================================
-         JAVASCRIPT LOGIC & WEDDING INSTRUMENTAL SONG
+         COMPLETE JAVASCRIPT LOGIC & WEDDING SONG
     =========================================== -->
     <script>
-        // 1. Polyphonic Wedding Instrumental Song (Oud, Harp & Warm Piano via Web Audio API)
         let audioCtx = null;
         let isSongPlaying = false;
-        let songStepTimer = null;
-        let stepIndex = 0;
+        let songLoopTimeout = null;
+        let activeOscillators = [];
 
-        // Romantic Hijaz / Acoustic Progression for Wedding
-        const progression = [
-            { root: 146.83, chord: [220.00, 293.66, 369.99], melody: [587.33, 554.37, 493.88, 440.00] }, // D Major
-            { root: 196.00, chord: [246.94, 293.66, 392.00], melody: [493.88, 587.33, 659.25, 587.33] }, // G Major
-            { root: 164.81, chord: [246.94, 329.63, 392.00], melody: [554.37, 493.88, 440.00, 392.00] }, // Em7
-            { root: 220.00, chord: [277.18, 329.63, 440.00], melody: [440.00, 493.88, 554.37, 587.33] }  // A Major
+        // Romantic Wedding Instrumental (Oud, Harp & Piano Arpeggios)
+        const songMeasures = [
+            {
+                pad: [220.00, 261.63, 329.63],
+                arp: [220.00, 329.63, 440.00, 523.25, 659.25, 523.25, 440.00, 329.63],
+                melody: [
+                    { freq: 659.25, step: 0, dur: 1.1 },
+                    { freq: 698.46, step: 3, dur: 0.45 },
+                    { freq: 659.25, step: 4, dur: 0.9 },
+                    { freq: 587.33, step: 6, dur: 0.7 }
+                ]
+            },
+            {
+                pad: [174.61, 220.00, 261.63],
+                arp: [174.61, 261.63, 349.23, 440.00, 523.25, 440.00, 349.23, 261.63],
+                melody: [
+                    { freq: 523.25, step: 0, dur: 1.2 },
+                    { freq: 587.33, step: 4, dur: 0.7 },
+                    { freq: 659.25, step: 6, dur: 0.8 }
+                ]
+            },
+            {
+                pad: [130.81, 196.00, 261.63],
+                arp: [261.63, 329.63, 392.00, 523.25, 659.25, 523.25, 392.00, 329.63],
+                melody: [
+                    { freq: 783.99, step: 0, dur: 1.2 },
+                    { freq: 698.46, step: 3, dur: 0.45 },
+                    { freq: 659.25, step: 4, dur: 0.9 },
+                    { freq: 587.33, step: 6, dur: 0.7 }
+                ]
+            },
+            {
+                pad: [164.81, 246.94, 329.63],
+                arp: [164.81, 246.94, 329.63, 415.30, 493.88, 415.30, 329.63, 246.94],
+                melody: [
+                    { freq: 493.88, step: 0, dur: 1.4 },
+                    { freq: 523.25, step: 4, dur: 0.6 },
+                    { freq: 493.88, step: 6, dur: 0.9 }
+                ]
+            }
         ];
 
-        function playPluckNote(freq, startTime, duration, volume = 0.06, type = 'triangle') {
+        let currentMeasureIdx = 0;
+
+        function playTone(freq, startTime, duration, type, peakGain) {
             if (!audioCtx || !isSongPlaying) return;
-            const osc = audioCtx.createOscillator();
-            const gain = audioCtx.createGain();
-            osc.type = type;
-            osc.frequency.setValueAtTime(freq, startTime);
+            try {
+                const osc = audioCtx.createOscillator();
+                const gain = audioCtx.createGain();
+                osc.type = type;
+                osc.frequency.setValueAtTime(freq, startTime);
 
-            gain.gain.setValueAtTime(0.0001, startTime);
-            gain.gain.linearRampToValueAtTime(volume, startTime + 0.04);
-            gain.gain.exponentialRampToValueAtTime(0.0001, startTime + duration);
+                gain.gain.setValueAtTime(0.0001, startTime);
+                gain.gain.exponentialRampToValueAtTime(peakGain, startTime + Math.min(0.08, duration * 0.25));
+                gain.gain.exponentialRampToValueAtTime(0.0001, startTime + duration);
 
-            osc.connect(gain);
-            gain.connect(audioCtx.destination);
+                osc.connect(gain);
+                gain.connect(audioCtx.destination);
 
-            osc.start(startTime);
-            osc.stop(startTime + duration + 0.05);
+                osc.start(startTime);
+                osc.stop(startTime + duration + 0.04);
+                activeOscillators.push(osc);
+            } catch (e) {}
         }
 
-        function scheduleWeddingMeasure() {
+        function scheduleMeasure() {
             if (!isSongPlaying || !audioCtx) return;
-            const now = audioCtx.currentTime;
-            const bar = progression[stepIndex % progression.length];
 
-            // Warm Bass Pad
-            playPluckNote(bar.root, now, 2.2, 0.065, 'sine');
+            const measure = songMeasures[currentMeasureIdx];
+            currentMeasureIdx = (currentMeasureIdx + 1) % songMeasures.length;
 
-            // Harp / Oud Arpeggio
-            bar.chord.forEach((noteFreq, idx) => {
-                playPluckNote(noteFreq, now + idx * 0.28, 1.6, 0.045, 'triangle');
+            const now = audioCtx.currentTime + 0.05;
+            const stepDur = 0.36;
+            const measureDuration = stepDur * 8;
+
+            measure.pad.forEach((freq) => {
+                playTone(freq, now, measureDuration, 'sine', 0.022);
             });
 
-            // Expressive Wedding Melody
-            bar.melody.forEach((melFreq, idx) => {
-                playPluckNote(melFreq, now + idx * 0.55, 0.9, 0.05, 'sine');
+            measure.arp.forEach((freq, idx) => {
+                playTone(freq, now + idx * stepDur, stepDur * 1.9, 'triangle', 0.035);
             });
 
-            stepIndex++;
-            songStepTimer = setTimeout(scheduleWeddingMeasure, 2200);
+            measure.melody.forEach((note) => {
+                const start = now + note.step * stepDur;
+                playTone(note.freq, start, note.dur, 'sine', 0.05);
+                playTone(note.freq * 2, start, note.dur * 0.8, 'triangle', 0.012);
+            });
+
+            songLoopTimeout = setTimeout(scheduleMeasure, measureDuration * 1000 - 40);
+        }
+
+        function updateSongUI() {
+            const eqBars = document.getElementById('eq-bars');
+            const label = document.getElementById('music-label');
+            if (eqBars) {
+                if (isSongPlaying) {
+                    eqBars.classList.remove('eq-paused');
+                } else {
+                    eqBars.classList.add('eq-paused');
+                }
+            }
+            if (label) {
+                label.textContent = isSongPlaying ? '♪ Song: ON' : '♪ Song: OFF';
+            }
         }
 
         function startWeddingSong() {
             try {
-                if (!audioCtx) {
-                    const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                const AudioContextClass = window.AudioContext || window.webkitAudioContext;
+                if (!audioCtx && AudioContextClass) {
                     audioCtx = new AudioContextClass();
                 }
-                if (audioCtx.state === 'suspended') {
+                if (audioCtx && audioCtx.state === 'suspended') {
                     audioCtx.resume();
                 }
                 if (!isSongPlaying) {
                     isSongPlaying = true;
                     updateSongUI();
-                    scheduleWeddingMeasure();
+                    scheduleMeasure();
                 }
-            } catch (e) {
-                console.warn('Web Audio API could not start automatically:', e);
-            }
+            } catch (err) {}
         }
 
         function stopWeddingSong() {
             isSongPlaying = false;
-            if (songStepTimer) {
-                clearTimeout(songStepTimer);
-                songStepTimer = null;
+            if (songLoopTimeout) {
+                clearTimeout(songLoopTimeout);
+                songLoopTimeout = null;
             }
+            activeOscillators.forEach((osc) => {
+                try { osc.stop(); } catch (e) {}
+            });
+            activeOscillators = [];
             updateSongUI();
         }
 
-        function updateSongUI() {
-            const label = document.getElementById('music-label');
-            const eqBars = document.getElementById('eq-bars');
-            if (!label || !eqBars) return;
-
-            if (isSongPlaying) {
-                label.textContent = '♪ Song: ON';
-                eqBars.classList.remove('eq-paused');
-            } else {
-                label.textContent = '♪ Song: OFF';
-                eqBars.classList.add('eq-paused');
-            }
-        }
-
-        // Expose functions globally on window so inline onclick handlers never throw ReferenceError
         window.toggleWeddingSong = function() {
             if (isSongPlaying) {
                 stopWeddingSong();
@@ -747,159 +1296,199 @@
             }
         };
 
+        // 1. 4-Stage Slower Envelope Unveil Sequence
+        let isEnvelopeOpening = false;
         window.openInvitation = function() {
+            if (isEnvelopeOpening) return;
+            isEnvelopeOpening = true;
+
             const overlay = document.getElementById('gatefold-overlay');
-            if (overlay) {
-                overlay.classList.add('gatefold-open');
-            }
+            const stage = document.getElementById('envelope-stage');
+            const statusText = document.getElementById('unveil-status-text');
+            const hint = document.getElementById('envelope-tap-hint');
+
             startWeddingSong();
+
+            // Stage 1: Ignite golden floral filigree & diagonal seams
+            if (stage) stage.classList.add('envelope-glow');
+            if (statusText) statusText.textContent = '✨ Unsealing Royal Invitation... ✨';
+
+            // Stage 2: Volumetric golden sun-rays & sparkles
             setTimeout(() => {
+                if (stage) stage.classList.add('envelope-rays');
                 window.showerRosePetals();
-            }, 450);
+                if (hint) hint.style.opacity = '0';
+            }, 1100);
+
+            // Stage 3: Slowly unfold all 4 velvet flaps in 3D
+            setTimeout(() => {
+                if (stage) stage.classList.add('envelope-opening');
+            }, 2350);
+
+            // Stage 4: Reveal the Royal Emerald Night & Celestial Rose-Gold Invitation
+            setTimeout(() => {
+                if (overlay) overlay.classList.add('envelope-done');
+                window.showerRosePetals();
+            }, 4450);
         };
 
         // 2. Live Countdown Timer to 12 Dec 2026, 4:30 PM IST
+        const targetWeddingTime = new Date('2026-12-12T16:30:00+05:30').getTime();
         function updateCountdown() {
-            const targetDate = new Date('2026-12-12T16:30:00+05:30').getTime();
-            const now = new Date().getTime();
-            const diff = Math.max(0, targetDate - now);
-
-            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-            const hours = Math.floor((diff / (1000 * 60 * 60)) % 24);
-            const mins = Math.floor((diff / 1000 / 60) % 60);
-            const secs = Math.floor((diff / 1000) % 60);
+            const now = Date.now();
+            const diff = targetWeddingTime - now;
 
             const dEl = document.getElementById('cd-days');
             const hEl = document.getElementById('cd-hours');
             const mEl = document.getElementById('cd-mins');
             const sEl = document.getElementById('cd-secs');
+            if (!dEl || !hEl || !mEl || !sEl) return;
 
-            if (dEl) dEl.textContent = String(days).padStart(2, '0');
-            if (hEl) hEl.textContent = String(hours).padStart(2, '0');
-            if (mEl) mEl.textContent = String(mins).padStart(2, '0');
-            if (sEl) sEl.textContent = String(secs).padStart(2, '0');
+            if (diff <= 0) {
+                dEl.textContent = '00';
+                hEl.textContent = '00';
+                mEl.textContent = '00';
+                sEl.textContent = '00';
+                return;
+            }
+
+            const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const mins = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const secs = Math.floor((diff % (1000 * 60)) / 1000);
+
+            dEl.textContent = String(days).padStart(2, '0');
+            hEl.textContent = String(hours).padStart(2, '0');
+            mEl.textContent = String(mins).padStart(2, '0');
+            sEl.textContent = String(secs).padStart(2, '0');
         }
         setInterval(updateCountdown, 1000);
         updateCountdown();
 
-        // 3. Interactive Rose Petal Shower on Canvas
-        const canvas = document.getElementById('petal-canvas');
-        const ctx = canvas ? canvas.getContext('2d') : null;
+        // 3. Interactive Rose Petal & Gold Foil Shower Canvas
+        const petalCanvas = document.getElementById('petal-canvas');
+        const pCtx = petalCanvas ? petalCanvas.getContext('2d') : null;
         let petals = [];
-        let animFrameId = null;
+        let petalAnimId = null;
 
-        function resizeCanvas() {
-            if (!canvas) return;
-            canvas.width = window.innerWidth;
-            canvas.height = window.innerHeight;
+        function resizePetalCanvas() {
+            if (!petalCanvas) return;
+            petalCanvas.width = window.innerWidth;
+            petalCanvas.height = window.innerHeight;
         }
-        window.addEventListener('resize', resizeCanvas);
-        resizeCanvas();
+        window.addEventListener('resize', resizePetalCanvas);
+        resizePetalCanvas();
 
         window.showerRosePetals = function() {
-            if (!canvas || !ctx) return;
-            const colors = ['#E2B897', '#F7E3CE', '#D46A7E', '#B8334A', '#CFA07A'];
-            for (let i = 0; i < 48; i++) {
+            if (!petalCanvas || !pCtx) return;
+            const colors = ['#E2B897', '#F5D6BA', '#D4A359', '#9E2438', '#C94A5E'];
+            for (let i = 0; i < 42; i++) {
                 petals.push({
-                    x: Math.random() * canvas.width,
-                    y: -20 - Math.random() * 180,
-                    rx: 6 + Math.random() * 7,
-                    ry: 4 + Math.random() * 5,
+                    x: Math.random() * petalCanvas.width,
+                    y: -20 - Math.random() * 140,
+                    rx: 5 + Math.random() * 7,
+                    ry: 3 + Math.random() * 5,
                     color: colors[Math.floor(Math.random() * colors.length)],
-                    vy: 1.6 + Math.random() * 2.4,
+                    vy: 1.5 + Math.random() * 2.4,
                     vx: -1 + Math.random() * 2,
                     angle: Math.random() * Math.PI * 2,
                     spin: -0.04 + Math.random() * 0.08,
-                    alpha: 0.9
+                    alpha: 0.92
                 });
             }
 
             const statusEl = document.getElementById('petal-status');
             if (statusEl) {
-                statusEl.textContent = '✨ Barakallahu Lakuma! Blessings showered upon Abid & Ayshath ✨';
+                statusEl.textContent = '✨ Barakallahu Lakuma! Rose petals & blessings showered! ✨';
             }
 
-            if (!animFrameId) {
-                renderPetals();
+            if (!petalAnimId) {
+                animatePetals();
             }
         };
 
-        function renderPetals() {
-            if (!ctx || !canvas) return;
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
+        function animatePetals() {
+            if (!pCtx || !petalCanvas) return;
+            pCtx.clearRect(0, 0, petalCanvas.width, petalCanvas.height);
 
-            petals.forEach((p) => {
+            for (let i = petals.length - 1; i >= 0; i--) {
+                const p = petals[i];
+                p.x += p.vx + Math.sin(p.y * 0.02) * 0.4;
                 p.y += p.vy;
-                p.x += p.vx + Math.sin(p.y * 0.02) * 0.5;
                 p.angle += p.spin;
 
-                ctx.save();
-                ctx.translate(p.x, p.y);
-                ctx.rotate(p.angle);
-                ctx.globalAlpha = p.alpha;
-                ctx.fillStyle = p.color;
-                ctx.beginPath();
-                ctx.ellipse(0, 0, p.rx, p.ry, 0, 0, Math.PI * 2);
-                ctx.fill();
-                ctx.restore();
-            });
+                if (p.y > petalCanvas.height + 30) {
+                    petals.splice(i, 1);
+                    continue;
+                }
 
-            petals = petals.filter((p) => p.y < canvas.height + 30);
+                pCtx.save();
+                pCtx.translate(p.x, p.y);
+                pCtx.rotate(p.angle);
+                pCtx.globalAlpha = p.alpha;
+                pCtx.fillStyle = p.color;
+                pCtx.beginPath();
+                pCtx.ellipse(0, 0, p.rx, p.ry, 0, 0, Math.PI * 2);
+                pCtx.fill();
+                pCtx.restore();
+            }
 
             if (petals.length > 0) {
-                animFrameId = requestAnimationFrame(renderPetals);
+                petalAnimId = requestAnimationFrame(animatePetals);
             } else {
-                animFrameId = null;
-                ctx.clearRect(0, 0, canvas.width, canvas.height);
+                petalAnimId = null;
+                pCtx.clearRect(0, 0, petalCanvas.width, petalCanvas.height);
             }
         }
 
-        // 4. Download Apple/Outlook .ICS Calendar File
+        // 4. Download Apple / Outlook .ICS Calendar File
         window.downloadICS = function() {
             const icsContent = [
                 'BEGIN:VCALENDAR',
                 'VERSION:2.0',
+                'PRODID:-//Abid & Ayshath Wedding//EN',
                 'BEGIN:VEVENT',
-                'SUMMARY:Wedding of Abid Mohammed & Ayshath Mishfa',
                 'DTSTART:20261212T110000Z',
                 'DTEND:20261212T150000Z',
+                'SUMMARY:Wedding of Abid Mohammed & Ayshath Mishfa',
+                'DESCRIPTION:Nikah after Asar Namaz at 4:30 PM followed by Reception. Hosted by MR. Mohammed Kunhi Haji (Late) & MRS. Surayya.',
                 'LOCATION:Mishba Manzil, Near Kunil Mosque, Muttam P.O., Shiriya',
-                'DESCRIPTION:Nikah after Asar Namaz (4:30 PM) followed by Reception.',
                 'END:VEVENT',
                 'END:VCALENDAR'
             ].join('\r\n');
 
             const blob = new Blob([icsContent], { type: 'text/calendar;charset=utf-8' });
-            const url = URL.createObjectURL(blob);
-            const a = document.createElement('a');
-            a.href = url;
-            a.download = 'Abid-Ayshath-Wedding.ics';
-            document.body.appendChild(a);
-            a.click();
-            document.body.removeChild(a);
-            URL.revokeObjectURL(url);
+            const link = document.createElement('a');
+            link.href = URL.createObjectURL(blob);
+            link.setAttribute('download', 'Abid-Ayshath-Wedding.ics');
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
         };
 
-        // 5. Share or Copy Invitation Link
+        // 5. Share / Copy Invitation Link
         window.shareInvitation = function() {
-            const shareText = 'You are cordially invited to the wedding of Abid Mohammed & Ayshath Mishfa on Saturday, 12th December 2026 (4:30 PM).';
+            const shareText = 'You are warmly invited to the Wedding Ceremony (Nikah) of Abid Mohammed & Ayshath Mishfa on Saturday, 12th December 2026 at 4:30 PM.';
+            const btnText = document.getElementById('share-btn-text');
+
             if (navigator.share) {
                 navigator.share({
-                    title: 'Abid Mohammed & Ayshath Mishfa | Wedding Invitation',
+                    title: 'Abid Mohammed & Ayshath Mishfa Wedding',
                     text: shareText,
                     url: window.location.href
                 }).catch(() => {});
             } else {
-                const dummy = document.createElement('textarea');
-                dummy.value = window.location.href;
-                document.body.appendChild(dummy);
-                dummy.select();
+                const tempInput = document.createElement('textarea');
+                tempInput.value = shareText + ' ' + window.location.href;
+                document.body.appendChild(tempInput);
+                tempInput.select();
                 document.execCommand('copy');
-                document.body.removeChild(dummy);
-                const btnText = document.getElementById('share-btn-text');
+                document.body.removeChild(tempInput);
                 if (btnText) {
-                    btnText.textContent = 'Link Copied!';
-                    setTimeout(() => { btnText.textContent = 'Share Invite'; }, 2500);
+                    btnText.textContent = 'Invite Copied!';
+                    setTimeout(() => {
+                        btnText.textContent = 'Share Invite';
+                    }, 2500);
                 }
             }
         };
